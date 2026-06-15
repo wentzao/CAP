@@ -1,0 +1,1049 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>會考長文閱讀題庫 · 文藻美語</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+<style>
+*,*::before,*::after{box-sizing:border-box;}
+:root{--g:#03492d;--g2:#0a6b43;--g3:#3f8f6b;--ink:#13241c;--cream:#f6f4ef;--mut:#5b6b63;--gold:#c7922b;}
+.reveal{font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif;color:#15241d;font-size:42px;}
+.reveal .slides{text-align:center;}
+.reveal section{padding:0 2.4%;}
+/* dark slides */
+.reveal section.dark{color:#fff;}
+.reveal section.dark .ttl,.reveal section.dark h2{color:#fff;}
+.reveal .backgrounds .slide-background.present{}
+section.dark{}
+/* typography */
+.ttl{font-size:1.92em;font-weight:800;color:var(--g);margin:0 0 .45em;letter-spacing:1px;}
+.ttl.light{color:#fff;}
+.big{font-size:3.4em;font-weight:900;color:#fff;margin:.1em 0;letter-spacing:3px;}
+.big2{font-size:3em;font-weight:900;color:#fff;letter-spacing:3px;margin:.1em 0;}
+.sub2{font-size:1.62em;font-weight:400;color:#bfe6d3;margin:.2em 0 .6em;}
+.kicker{font-size:.7em;letter-spacing:6px;color:#7ec8a4;font-weight:700;margin-bottom:1.2em;text-transform:uppercase;}
+.kicker2{font-size:.6em;letter-spacing:5px;color:#7ec8a4;font-weight:700;margin-top:1.4em;text-transform:uppercase;}
+.lead{font-size:1.18em;color:#dceee5;margin:.3em 0;}
+.lead2{font-size:1.06em;color:#a9d6c1;}
+.hero{max-width:none;}
+.sub-light{font-size:1.12em;color:#cfe8dd;margin-bottom:1em;}
+.foot{font-size:.94em;color:var(--mut);margin-top:.7em;line-height:1.5;}
+.foot.mut{color:#94a39b;font-size:.82em;}
+.light-foot{color:#9fc6b6;}
+.big-list{list-style:none;padding:0;font-size:1.27em;line-height:2.05;display:inline-block;text-align:left;}
+.big-list li{padding-left:1.3em;position:relative;}
+.big-list li::before{content:"";position:absolute;left:0;top:.62em;width:.55em;height:.55em;background:var(--g2);border-radius:2px;transform:rotate(45deg);}
+.reveal section.dark .big-list li::before{background:#7ec8a4;}
+.big-list b{color:var(--g);} .reveal section.dark .big-list b{color:#bff0d8;}
+/* subject grid */
+.grid6{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:.3em 0;}
+.gcard{border:2.5px solid var(--g);border-radius:16px;padding:28px 8px;font-size:1.32em;font-weight:800;color:var(--g);background:#fff;text-align:center;}
+.gcard span{display:block;font-size:.56em;font-weight:400;color:var(--mut);margin-top:4px;}
+/* two cards */
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px;max-width:1320px;margin:.4em auto 0;}
+.tcard{min-width:0;border:2.5px solid #cdd8d2;border-radius:18px;padding:28px;background:#fff;}
+.tcard.hl{border-color:var(--g);background:#f0f7f3;}
+.th{font-size:1.62em;font-weight:900;color:var(--g);margin-bottom:.25em;}
+.td{font-size:.95em;color:#33433b;line-height:1.62;}
+.td b{color:var(--g);}
+/* explanation blocks */
+.explain{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin:.4em auto;max-width:1120px;text-align:left;}
+.xcard{background:#fff;border:3px solid #d7e2dc;border-radius:16px;padding:26px 28px;box-shadow:0 10px 28px rgba(3,73,45,.08);}
+.xcard.hl{border-color:var(--g);background:#f0f7f3;}
+.xcard .xh{font-size:1.24em;font-weight:900;color:var(--g);margin-bottom:.3em;}
+.xcard .xb{font-size:.9em;line-height:1.55;color:#32433a;}
+.xcard b{color:var(--g);}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:.45em 0 .2em;}
+.step{background:#fff;border:2.5px solid #d4dfd9;border-radius:14px;padding:18px 12px 20px;text-align:center;min-height:165px;}
+.step .num{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--g);color:#fff;font-size:.68em;font-weight:900;margin-bottom:10px;}
+.step .sh{font-size:.78em;font-weight:900;color:var(--g);line-height:1.2;margin-bottom:8px;}
+.step .sb{font-size:.58em;line-height:1.42;color:#46574f;}
+.warn{display:inline-block;max-width:830px;background:#fff4dd;border:2px solid #e0bd65;color:#5c4214;border-radius:12px;padding:12px 18px;font-size:.86em;font-weight:700;line-height:1.35;margin-top:.45em;}
+.note-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1120px;margin:.4em auto;text-align:left;}
+.note{background:#fff;border-left:8px solid var(--g);border-radius:12px;padding:24px 28px;box-shadow:0 8px 24px rgba(3,73,45,.08);}
+.note.gold{border-left-color:var(--gold);}
+.note h3{font-size:1.08em;margin:0 0 .35em;color:var(--g);}
+.note p{font-size:.82em;line-height:1.58;margin:.2em 0;color:#33433b;}
+.note b{color:var(--g);}
+.compact-score .ttl{font-size:1.56em;margin-bottom:.24em;}
+.compact-score .foot{font-size:.78em;line-height:1.3;margin:.36em 0;}
+.compact-score .foot:last-child{font-size:.72em;margin-top:.3em;padding-right:160px;}
+.compact-score .two-col{margin:.1em 0;}
+.compact-score .two-col .kt{font-size:.66em;}
+.compact-score .kt th,.compact-score .kt td{padding:7px 16px;}
+.compact-list .ttl{font-size:1.75em;}
+.compact-list .big-list{font-size:1.1em;line-height:1.75;}
+.compact-list .foot{font-size:.82em;line-height:1.35;}
+.compact-table .ttl{font-size:1.62em;margin-bottom:.28em;}
+.compact-table .sub-light{font-size:.92em;margin-bottom:.35em;}
+.compact-table .kt.wide{font-size:.74em;}
+.compact-table .kt th,.compact-table .kt td{padding:8px 14px;}
+.compact-table .foot{font-size:.72em;line-height:1.3;margin-top:.35em;}
+/* levels */
+.levels{display:flex;gap:36px;justify-content:center;margin-top:.6em;}
+.lv{text-align:center;}
+.lv span{display:flex;align-items:center;justify-content:center;width:150px;height:150px;border-radius:24px;font-size:3em;font-weight:900;color:#fff;}
+.lvA{background:var(--g2);} .lvB{background:#2f6f55;} .lvC{background:#7c9389;}
+.lv em{display:block;font-style:normal;font-size:1.1em;margin-top:.4em;color:#dceee5;}
+/* tables */
+.kt{border-collapse:collapse;margin:.3em auto;font-size:1em;}
+.kt.wide{font-size:.9em;}
+.kt th,.kt td{border:1px solid #d3ded8;padding:12px 20px;}
+.kt th{background:var(--g);color:#fff;font-weight:700;}
+.kt td{background:#fff;color:#23332c;}
+.kt .hl-cell{font-weight:900;color:var(--g);background:#eef6f1;}
+.kt b{color:var(--g);}
+.kt.dark-t th{background:#0a6b43;} .kt.dark-t td{background:rgba(255,255,255,.95);}
+.two-col{display:flex;gap:26px;justify-content:center;align-items:flex-start;margin:.2em 0;}
+.two-col .kt{font-size:.82em;margin:0;}
+/* bars */
+.bars{margin-top:.6em;}
+.brow{display:flex;align-items:center;gap:16px;margin:14px 0;}
+.brow>span{width:150px;text-align:right;font-weight:700;color:#dceee5;font-size:1em;}
+.bar{background:linear-gradient(90deg,#0a6b43,#3f8f6b);color:#fff;padding:12px 18px;border-radius:8px;font-size:.92em;font-weight:700;white-space:nowrap;}
+/* calculator */
+#calc{max-width:860px;margin:.2em auto 0;}
+.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px 26px;align-items:center;}
+.calc-row{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;}
+.calc-label{text-align:right;font-size:.92em;font-weight:900;color:#17261f;}
+#calc select{font-size:.9em;min-width:150px;padding:9px 14px;border:2px solid var(--g);border-radius:8px;color:var(--g);font-family:inherit;font-weight:800;background:#fff;}
+#calcout{font-size:1.25em;font-weight:900;color:var(--g);margin-top:14px;text-align:center;}
+/* question slides */
+.qhead{display:flex;align-items:center;gap:14px;width:1440px;max-width:1440px;margin:0 auto 14px;}
+.qno{background:var(--g);color:#fff;padding:3px 16px;border-radius:20px;font-weight:800;font-size:.7em;}
+.subj{color:#fff;background:#7c9389;padding:6px 18px;border-radius:16px;font-size:.62em;cursor:pointer;transition:.25s;user-select:none;font-weight:700;}
+.subj::before{content:"❓ 點一下看科目";}
+.subj.shown::before{content:attr(data-label);}
+.qwc{margin-left:auto;font-size:.55em;background:#eef2f0;padding:5px 14px;border-radius:14px;color:#516056;font-weight:700;}
+.qbody{display:grid;grid-template-columns:minmax(0,3fr) minmax(360px,1fr);gap:18px;align-items:stretch;height:680px;width:1440px;max-width:1440px;margin:0 auto;}
+.qpanel{overflow-y:auto;background:#fafcfb;border:1px solid #e6ece9;border-radius:12px;padding:12px 18px;text-align:left;min-height:0;}
+.qchoices{padding:12px;background:#f6faf8;}
+.qpanel::-webkit-scrollbar{width:9px;} .qpanel::-webkit-scrollbar-thumb{background:#bcd0c7;border-radius:5px;}
+.passage{font-size:.52em;line-height:1.72;background:#fff;border-left:5px solid var(--g);padding:14px 18px;border-radius:8px;}
+.qs{font-size:.42em;line-height:1.48;color:#33433b;display:grid;gap:12px;}
+.qs b{color:var(--g);}
+.question-card{background:#fff;border:1px solid #dfe9e4;border-left:6px solid var(--g);border-radius:10px;padding:13px 14px;box-shadow:0 4px 12px rgba(3,73,45,.05);}
+.question-card .qnumline{display:block;font-weight:900;color:var(--g);margin-bottom:5px;}
+.answer-wrap{max-width:1100px;margin:0 auto;text-align:left;}
+.answer-kicker{font-size:.58em;letter-spacing:3px;text-transform:uppercase;color:#a9d6c1;font-weight:800;margin-bottom:12px;text-align:center;}
+.answer-title{text-align:center;font-size:1.65em;font-weight:900;color:#fff;margin:0 0 20px;}
+.answer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;}
+.answer-card{background:rgba(255,255,255,.96);border-radius:12px;padding:18px 20px;color:#1a2b23;border-left:7px solid #7ec8a4;min-height:116px;}
+.answer-card .anum{font-size:.72em;color:#60736a;font-weight:800;}
+.answer-card .aval{font-size:1.7em;line-height:1.1;font-weight:900;color:var(--g);margin:2px 0 6px;}
+.answer-card p{font-size:.58em;line-height:1.42;color:#415249;margin:0;}
+.english-bridge .big2{font-size:2.45em;}
+.english-bridge .lead{font-size:1.05em;line-height:1.55;}
+/* brand logo fixed */
+.brandlogo{position:fixed;right:22px;bottom:18px;z-index:60;display:flex;align-items:center;opacity:.96;background:rgba(255,255,255,.92);border-radius:10px;padding:5px 9px;box-shadow:0 8px 22px rgba(3,73,45,.12);}
+.brandlogo img{width:138px;height:auto;display:block;}
+.brandlogo.dark-logo{background:rgba(255,255,255,.96);}
+/* file links and question picker */
+.file-actions{display:flex;gap:18px;justify-content:center;align-items:center;margin-top:34px;flex-wrap:wrap;}
+.file-btn{display:inline-flex;align-items:center;justify-content:center;min-width:220px;padding:14px 24px;border-radius:12px;background:#fff;color:var(--g);border:2px solid rgba(255,255,255,.85);font-size:.62em;font-weight:900;text-decoration:none;box-shadow:0 10px 28px rgba(0,0,0,.12);}
+.file-btn.alt{background:transparent;color:#dceee5;}
+.deck-home{position:fixed;left:22px;top:18px;z-index:80;display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border-radius:999px;background:rgba(255,255,255,.94);border:1px solid #d7e2dc;color:var(--g);font:800 18px/1 "PingFang TC","Microsoft JhengHei",sans-serif;text-decoration:none;box-shadow:0 8px 24px rgba(3,73,45,.14);}
+.deck-home:hover{background:#fff;transform:translateY(-1px);}
+.library-slide{height:100%;display:flex!important;flex-direction:column;text-align:left;padding-top:18px!important;}
+.library-top{width:1440px;max-width:1440px;margin:0 auto 14px;display:flex;justify-content:space-between;align-items:end;gap:24px;}
+.library-top h1{font-size:1.28em;line-height:1;margin:0;color:var(--g);font-weight:900;}
+.library-top p{font-size:.46em;line-height:1.45;margin:.35em 0 0;color:#586960;}
+.library-top a{font-size:.42em;font-weight:900;color:var(--g);text-decoration:none;border:2px solid #cddbd4;border-radius:999px;padding:8px 14px;background:#fff;}
+.library-grid{width:1440px;max-width:1440px;margin:0 auto;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;max-height:690px;overflow-y:auto;padding:2px 8px 16px 2px;}
+.library-grid::-webkit-scrollbar{width:10px}.library-grid::-webkit-scrollbar-thumb{background:#bcd0c7;border-radius:8px}
+.pick-card{display:block;min-height:146px;padding:14px 15px 13px;border:1px solid #dfe9e4;border-left:7px solid var(--g);border-radius:12px;background:#fff;color:#25362e;text-decoration:none;box-shadow:0 6px 18px rgba(3,73,45,.07);transition:.18s ease;}
+.pick-card:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(3,73,45,.12);border-color:#b8cec3;}
+.pick-meta{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:8px;}
+.pick-no{font-size:.52em;font-weight:900;color:#fff;background:var(--g);border-radius:999px;padding:3px 10px;}
+.pick-count{font-size:.36em;font-weight:900;color:#60736a;background:#eef4f1;border-radius:999px;padding:4px 8px;white-space:nowrap;}
+.pick-label{font-size:.42em;line-height:1.3;font-weight:900;color:var(--g);margin-bottom:6px;min-height:2.55em;}
+.pick-preview{font-size:.34em;line-height:1.5;color:#405148;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+@media (max-width:900px){.library-top,.library-grid,.qhead,.qbody{width:1380px;max-width:1380px}.library-grid{grid-template-columns:repeat(3,minmax(0,1fr));}.deck-home{font-size:16px;}}
+
+.progress{color:var(--g2)!important;}
+</style></head><body>
+<div class="reveal"><div class="slides">
+<section class="library-slide"><div class="library-top"><div><h1>題庫選擇</h1><p>點選卡片可直接前往該題組；在題目頁按左上角「選題」回到這裡。</p></div><a href="index.html#/0">回會考說明</a></div><div class="library-grid">
+<a class="pick-card" href="#/2"><div class="pick-meta"><span class="pick-no">#1</span><span class="pick-count">568字・3題</span></div><div class="pick-label">113年 國文 第33-35題</div><div class="pick-preview">2018年流傳一段影片，片中美國前總統歐巴馬竟語出驚人地說：「川普總統 完全是個笨蛋！」儘管片中歐巴馬臉部表情、肢體語言都像極了他，但卻不是本 尊。影片隨後出現演員皮爾，原來這是他模仿的影片，藉由深偽技術，竟可變成 歐巴馬談話的片段。美國媒體製作這段影片的目的</div></a>
+<a class="pick-card" href="#/3"><div class="pick-meta"><span class="pick-no">#2</span><span class="pick-count">556字・2題</span></div><div class="pick-label">113年 國文 第25-26題</div><div class="pick-preview">最近經常想起愛丁堡。 可能是冬天到了的緣故，我就想起那個寒冷的城市。但想起愛丁堡時，記 憶幾乎都局限在從宿舍到圖書館的一段路。其他的地方，有時連路名都想不起 來了。我在那個城市住了三年多，但從離開的那天起，有關它的記憶卻迅速風 乾縮小，失去細節的厚度。 在愛丁</div></a>
+<a class="pick-card" href="#/4"><div class="pick-meta"><span class="pick-no">#3</span><span class="pick-count">403字・2題</span></div><div class="pick-label">113年 國文 第36-37題</div><div class="pick-preview">古阿明昨天在茶園裡畫的作品，郭雲天認為是近一個月以來最好的一幅，也 是最使他滿意的一幅。 古阿明畫的是茶蟲。那真是個奇異的幻想世界。在一面圖案化的綠色畫面 上，各種各樣的大小茶蟲畫得猙獰可怖。此外還有幾個人物——古阿明曾向郭雲天 說那三個人是姊姊，小弟弟和他自</div></a>
+<a class="pick-card" href="#/5"><div class="pick-meta"><span class="pick-no">#4</span><span class="pick-count">388字・2題</span></div><div class="pick-label">113年 國文 第27-28題</div><div class="pick-preview">綏夫特《格理弗遊記》（舊譯《格列佛遊記》或《大小人國遊記》）在 中文世界裡幾乎是人盡皆知的兒童奇幻文學，但在英文世界裡它其實是一部用 來諷刺人性、英國時政與權貴的作品。原書有四冊，但許多中譯本只有第一、 二冊的《小人國》、《大人國》，使人無法窺其全貌。 在原始</div></a>
+<a class="pick-card" href="#/6"><div class="pick-meta"><span class="pick-no">#5</span><span class="pick-count">383字・2題</span></div><div class="pick-label">113年 國文 第29-30題</div><div class="pick-preview">1990年代初研究人員設計出一套評估方法，是為了計算出當年度的「地球 超載日」。今年（2022年）的「地球超載日」在7月28日，代表在這一天，我們 已經耗盡當年度地球的永續資源，在剩餘的時間裡，都將以透支的方式消耗地 球資源。據此，養活全世界的人口要1.75個</div></a>
+<a class="pick-card" href="#/7"><div class="pick-meta"><span class="pick-no">#6</span><span class="pick-count">258字・3題</span></div><div class="pick-label">113年 國文 第40-42題</div><div class="pick-preview">楚人江乙為郢大夫。有入王宮中盜者，令尹以罪乙，請於王而黜之。其母 往言於王曰：「妾夜亡布八匹，令尹盜之。」王謂母曰：「令尹信盜之，寡人 不為其富貴而不行法焉。若不盜而誣之，楚國有常法。」母曰：「令尹不身盜 之也，乃使人盜之。」王曰：「其使人盜奈何？」對曰：「昔</div></a>
+<a class="pick-card" href="#/8"><div class="pick-meta"><span class="pick-no">#7</span><span class="pick-count">374字・3題</span></div><div class="pick-label">113年 社會 第52-54題</div><div class="pick-preview">1950年代，臺灣電影為配合政府「反共抗俄」政策，政府所屬片廠拍攝的 電影，幾乎都是配合官方意識形態的政治宣傳工具，而民間則出現以歌仔戲劇 本與民俗故事為素材，並用閩南語發音的「臺語電影」。1960年代，因政府強 調社會安定，臺灣電影開啟「健康寫實」風格，主張</div></a>
+<a class="pick-card" href="#/9"><div class="pick-meta"><span class="pick-no">#8</span><span class="pick-count">262字・3題</span></div><div class="pick-label">113年 社會 第46-48題</div><div class="pick-preview">過去《道路交通管理處罰條例》中的「電動自行車」，僅以電力驅動行 駛，因與電動機車的使用差異不大，且不須懸掛車牌、不須駕照、駕駛者無年 齡限制、價格較低廉，部分民眾喜愛以它作為代步工具，卻也衍生諸多問題。 2022年4月時，政府修正《道路交通管理處罰條例》，將「</div></a>
+<a class="pick-card" href="#/10"><div class="pick-meta"><span class="pick-no">#9</span><span class="pick-count">204字・2題</span></div><div class="pick-label">113年 自然 第49-50題　（含圖/表）</div><div class="pick-preview">工業革命後，因大量使用化石燃料，使得大氣中二氧化碳的濃度逐漸增加。 圖(二十五)為大氣中二氧化碳濃度隨時間的變化圖，圖中的濃度出現週期性的變化。 圖(二十五) 在秋、冬季節，樹葉落到地面腐爛，並以二氧化碳的形式釋放回大氣中。在 春、夏季節，植物生長並進行旺盛的</div></a>
+<a class="pick-card" href="#/11"><div class="pick-meta"><span class="pick-no">#10</span><span class="pick-count">160字・2題</span></div><div class="pick-label">113年 自然 第44-45題　（含圖/表）</div><div class="pick-preview">再生能源包括太陽能、風力、水力、地熱、生質能等種類，具有溫室氣體排 放量低等環境友善優勢，發展再生能源已成為國際趨勢。圖(二十三)為某國2020年 的發電方式比例圖，表(十二)為燃煤電廠與燃氣電廠的空氣汙染物排放比較。 該國政府希望未來以能源轉型降低溫室氣體的</div></a>
+<a class="pick-card" href="#/12"><div class="pick-meta"><span class="pick-no">#11</span><span class="pick-count">586字・3題</span></div><div class="pick-label">114年 國文 第29-31題</div><div class="pick-preview">【甲】 電影大師希區考克曾說：「製作一部偉大的電影需要三樣東西：劇本、劇 本、劇本。」由此可見劇本對電影的重要性。在劇本中，對白固然重要，但劇 本必須深植於令人感覺真實的世界裡，才能有生命，也才能攫住觀眾。而視覺 化寫作，就能創造出這個世界來。 劇本中的視覺化</div></a>
+<a class="pick-card" href="#/13"><div class="pick-meta"><span class="pick-no">#12</span><span class="pick-count">566字・2題</span></div><div class="pick-label">114年 國文 第25-26題</div><div class="pick-preview">高二的外孫跟我說了一顆蛤蜊的故事。 這蛤蜊竟然有名字，叫「明」。明是隻北極圓蛤，目前已知最長壽的多細 胞動物，活了超過五百年，科學家推估其出生於明朝，於是命名「明」。孫子 再三強調：「據說，北極海底，隱藏著比明更老的蛤蜊！」 我也講了另一種蛤蜊的故事給他聽。 </div></a>
+<a class="pick-card" href="#/14"><div class="pick-meta"><span class="pick-no">#13</span><span class="pick-count">517字・2題</span></div><div class="pick-label">114年 國文 第36-37題</div><div class="pick-preview">南唐 後主 李煜跪在明德樓前，白衣素袍，向宋太祖 趙匡胤歸降時，內心肯 定百感交集。他想過以後的歷史，怎麼寫他嗎？《舊五代史》直接把十國裡凡稱 帝的都貶為「僭偽列傳」，南唐當然也逃不了。《新五代史》稍稍客氣，但也僅 以「世家 」定位。《舊五代史》南唐部分只寫到</div></a>
+<a class="pick-card" href="#/15"><div class="pick-meta"><span class="pick-no">#14</span><span class="pick-count">295字・2題</span></div><div class="pick-label">114年 國文 第34-35題　（含圖/表）</div><div class="pick-preview">包裝袋裡的空氣比洋芋片多？盒內的穀片變少了？這都不是你的錯覺，廠商 這種「價格不變、分量減少」的「縮水式漲價」策略已重出江湖。近來許多商 品以「偷斤減兩」的方式變相漲價，從衛生紙、早餐穀片到貓罐頭都有。 某些品牌為了避免顧客看到售價上漲，採用「縮水式漲價」，讓</div></a>
+<a class="pick-card" href="#/16"><div class="pick-meta"><span class="pick-no">#15</span><span class="pick-count">284字・2題</span></div><div class="pick-label">114年 國文 第27-28題　（含圖/表）</div><div class="pick-preview">灰面鵟鷹是過境臺灣的候鳥。每年十月起，牠們遠從日本、西伯利亞或中國 東北而來，經過墾丁，前往菲律賓的度冬地，到了三月，再集結北返。 研究灰面鵟鷹十多年的人員曾經透過無線電追蹤，了解牠們的遷徙路線。春 季牠們會從度冬地開始北遷，一條路線是從臺灣東南外海的蘭嶼，經</div></a>
+<a class="pick-card" href="#/17"><div class="pick-meta"><span class="pick-no">#16</span><span class="pick-count">368字・3題</span></div><div class="pick-label">114年 社會 第49-51題　（含圖/表）</div><div class="pick-preview">巴斯人的祖先原本居住於伊朗高原一帶，七世紀上半葉，阿拉伯軍隊擊敗 統治當地的薩珊王朝國王伊嗣俟，不願被穆斯林統治的人們遠離故鄉，遷徙至 印度半島西部避難。此後數個世紀，伊斯蘭教勢力逐漸進入印度，但印度的穆 斯林統治者對於不同的宗教和文化，表現出較為寬容的態度。</div></a>
+<a class="pick-card" href="#/18"><div class="pick-meta"><span class="pick-no">#17</span><span class="pick-count">330字・3題</span></div><div class="pick-label">114年 社會 第46-48題</div><div class="pick-preview">我國現行汽、機車車牌號碼的編碼規則，原則上每組號碼皆是由英文字母與 阿拉伯數字組成，但在民意反應及諸多考量下，有些數字、英文字母或是特定組 合，已不再使用於新發放的車牌。例如：數字的「4」，是因為其發音與「死」字 相近，一般民眾認為觸霉頭而不願使用；英文字母的</div></a>
+<a class="pick-card" href="#/19"><div class="pick-meta"><span class="pick-no">#18</span><span class="pick-count">283字・3題</span></div><div class="pick-label">114年 社會 第52-54題　（含圖/表）</div><div class="pick-preview">坐落在南大西洋的南喬治亞島，其 位置如圖(二十一)所示。冰天雪地的環 境下，島上仍孕育了為數眾多的海獅、 象鼻海豹、國王企鵝和特有種鳥類。 1775年庫克船長登島後，宣布其為 英國領土並以當時的英王命名。二十 世紀初該島設有數個捕鯨站，目前皆 已廢棄。1927</div></a>
+<a class="pick-card" href="#/20"><div class="pick-meta"><span class="pick-no">#19</span><span class="pick-count">265字・3題</span></div><div class="pick-label">114年 社會 第43-45題　（含圖/表）</div><div class="pick-preview">位於墨西哥首都的國立人類學博物館，館藏以當地古文明的文物為主，大約 有六十萬件。博物館的建築設計，呼應該地古文明信仰中的四種自然力量：風、 火、水、土元素，充滿與大自然的共融感。 一樓的展示廳為常設展，其中一塊區域專門展示當 地古文明的農業。由於農業發展與宗教</div></a>
+<a class="pick-card" href="#/21"><div class="pick-meta"><span class="pick-no">#20</span><span class="pick-count">398字・2題</span></div><div class="pick-label">114年 自然 第43-44題　（含圖/表）</div><div class="pick-preview">綠蒜頭是一種醃漬食品，一般做法約20天可使蒜頭變綠色。陳同學想要探究 影響蒜頭變綠色的原因，進行的實驗與說明如下： 蒜頭燒杯：先將蒜頭剝皮後，選取大小相近的蒜頭每6顆放入一個燒杯，共數杯。 實實驗驗一一：在數個蒜頭燒杯中各倒入15.0 mL食醋，杯口封膜後置於</div></a>
+<a class="pick-card" href="#/22"><div class="pick-meta"><span class="pick-no">#21</span><span class="pick-count">166字・2題</span></div><div class="pick-label">114年 自然 第49-50題　（含圖/表）</div><div class="pick-preview">阿平想以一顆球作為模擬月球運行造成月相變化的道具，他先將球的其中一半 塗黑，表示月球未受陽光照射的部分。圖(三十)為由球的正上方往下看的俯視圖， 圖(三十一)則是進行模擬操作時，由頭頂正上方往下看的俯視圖。他將自己模擬成 地球的位置，並將球置於甲處，以模擬上弦</div></a>
+<a class="pick-card" href="#/23"><div class="pick-meta"><span class="pick-no">#22</span><span class="pick-count">718字・3題</span></div><div class="pick-label">115年 國文 第30-32題</div><div class="pick-preview">親愛的馬爾萬，在我童年的漫長夏天裡，那時我跟你現在一樣大，你叔叔們和 我會在你爺爺的農舍屋頂上鋪開床墊，那是在霍姆斯城郊外。 馬爾萬，①我希望你和我一樣記住霍姆斯。在它繁華的老城，有一座我們穆斯 林的清真寺，一座我們基督徒鄰居的教堂，還有一座我們所有人的大市場</div></a>
+<a class="pick-card" href="#/24"><div class="pick-meta"><span class="pick-no">#23</span><span class="pick-count">716字・4題</span></div><div class="pick-label">115年 國文 第26-29題</div><div class="pick-preview">【甲】 2050年全球將有七成的人居住在城 市，城市必須供養70億人口，但密集開發 的城市哪還有多餘的土地可耕作？為解決 城市糧食供應的問題，垂直農場應運而 生。 城市垂直農場是把水平的農場，改造 成種滿植物的摩天大樓，用營養液代替土 壤，用LED燈取代陽光，</div></a>
+<a class="pick-card" href="#/25"><div class="pick-meta"><span class="pick-no">#24</span><span class="pick-count">451字・2題</span></div><div class="pick-label">115年 國文 第37-38題</div><div class="pick-preview">東非草原上，鐮莢金合歡樹提供原生舉尾蟻花蜜與住所，而舉尾蟻會保護 金合歡免受食草性動物侵害，並攻擊啃食金合歡的非洲象。21世紀初，外來的 熱帶大頭家蟻突然出現在肯亞，牠們會殺死舉尾蟻並吃掉其幼體，讓非洲象得 以肆無忌憚地啃食金合歡。 另一方面，金合歡減少，也令</div></a>
+<a class="pick-card" href="#/26"><div class="pick-meta"><span class="pick-no">#25</span><span class="pick-count">374字・2題</span></div><div class="pick-label">115年 國文 第33-34題</div><div class="pick-preview">唐玄宗時，翰林有三種：翰林待詔、翰林供奉、翰林學士。 翰林待詔這個群體很雜，有詩人，有畫家，有經學家，有書法家，有醫 生，還有算命先生。這些人被唐玄宗包養起來，辦公之餘，或者出遊的時候， 把他們喊過去，陪著玩耍，說穿了，就是「幫閒」。 翰林供奉是翰林待詔裡的佼</div></a>
+<a class="pick-card" href="#/27"><div class="pick-meta"><span class="pick-no">#26</span><span class="pick-count">265字・2題</span></div><div class="pick-label">115年 國文 第35-36題　（含圖/表）</div><div class="pick-preview">兩千多年前已有「投壺」這項活動，主要流行於先秦各國上流階層。投壺前，主 客間要彼此請讓之後才開始，體現以禮數為旨的精神，而非娛樂競技。秦 漢以後，投 壺始普及於民間，逐漸演變為酒席宴會上的餘興節目。 正式開賽時，每人四枝箭，主人站左，客人站右，在離壺兩箭半的 </div></a>
+<a class="pick-card" href="#/28"><div class="pick-meta"><span class="pick-no">#27</span><span class="pick-count">326字・3題</span></div><div class="pick-label">115年 社會 第52-54題</div><div class="pick-preview">1843年上海正式開港後不久，西方人就開始在上海租界內尋覓興建賽馬場的 地點，舉辦賽馬活動。當時管理賽事的單位為上海跑馬總會，會員全由西方人 組成。部分配合官方自強運動的中國商人家族，也想加入上海跑馬總會，卻總 是被西方人拒絕。因此中國商人另行籌組萬國體育會，</div></a>
+<a class="pick-card" href="#/29"><div class="pick-meta"><span class="pick-no">#28</span><span class="pick-count">288字・3題</span></div><div class="pick-label">115年 社會 第49-51題　（含圖/表）</div><div class="pick-preview">自古以來人們就知道要從農 作物找出有甜味的東西，製成糖 來食用。因環境的不同，各地 用來製糖的作物也有差異，如甜 菜、楓樹等，但公認最適合製糖的 是甘蔗。臺灣、印尼、菲律賓、 斐濟和古巴，都曾以蔗糖為重要 出口貨物。 日治時期，臺灣蔗田種植面 圖(十五) 圖(</div></a>
+<a class="pick-card" href="#/30"><div class="pick-meta"><span class="pick-no">#29</span><span class="pick-count">266字・3題</span></div><div class="pick-label">115年 社會 第46-48題　（含圖/表）</div><div class="pick-preview">立法院在2019年通過《司法院釋字第七四八號 解釋施行法》，合法保障同性婚姻。 某日阿華收到一則網路訊息，他擔心訊息中提 及的疾病傳染情況惡化，覺得應該讓身邊的朋友知 道這個情況，所以將相關訊息發送至各通訊群組， 希望廣為流傳，如圖(十四)所示。 小明在群組上</div></a>
+<a class="pick-card" href="#/31"><div class="pick-meta"><span class="pick-no">#30</span><span class="pick-count">187字・3題</span></div><div class="pick-label">115年 自然 第48-50題　（含圖/表）</div><div class="pick-preview">一般而言，鐵生鏽會消耗氧氣。小仲欲了解鐵粉可以和哪些 氣體反應而進行下列實驗： 1. 將3.0 g鐵粉浸泡在食醋中一段時間。 2. 以濾紙濾出鐵粉並移入針筒中，在針筒中通入O 後，將活塞定位 至5.00 mL刻度處，塞上塞子，如圖(三十二)。定時記錄黑色活塞 </div></a>
+<a class="pick-card" href="#/32"><div class="pick-meta"><span class="pick-no">#31</span><span class="pick-count">168字・2題</span></div><div class="pick-label">115年 自然 第44-45題　（含圖/表）</div><div class="pick-preview">圖(二十八)為暄暄用來記錄植物蒸散作用速率的裝置，管中的氣泡會隨著植 物的蒸散作用逐漸向右方移動，如箭頭所示，可以藉此推測植物的蒸散量。當需 要使氣泡回到起始點時，可打開閥門使注水管的水向下流，氣泡就會向左移動。 暄暄將此裝置放在室外一天，並重複於每一整點記錄</div></a>
+<a class="pick-card" href="#/34"><div class="pick-meta"><span class="pick-no">#32</span><span class="pick-count">311words・4題</span></div><div class="pick-label">113年 英文 第36-39題</div><div class="pick-preview">VOICES OF PEOPLE If you want to learn about bringing back extinct animals, reading John Smith’s Back from the Dead is a good start</div></a>
+<a class="pick-card" href="#/35"><div class="pick-meta"><span class="pick-no">#33</span><span class="pick-count">235words・3題</span></div><div class="pick-label">113年 英文 第30-32題</div><div class="pick-preview">Usually, people visit bookstores to buy books. But those who walk into Cotoha come to see its owner, Chen Bing-Hong. They bring hi</div></a>
+<a class="pick-card" href="#/36"><div class="pick-meta"><span class="pick-no">#34</span><span class="pick-count">224words・4題</span></div><div class="pick-label">113年 英文 第40-43題</div><div class="pick-preview">A HISTORY LESSON ON THE PANDEMIC 2020.10.29 Since the Covid-19 pandemic started, people have begun “social distancing”— keeping a </div></a>
+<a class="pick-card" href="#/37"><div class="pick-meta"><span class="pick-no">#35</span><span class="pick-count">223words・3題</span></div><div class="pick-label">113年 英文 第33-35題</div><div class="pick-preview">AA DDeelliicciioouuss SSuurrpprriissee aanndd WWeellccoommee CChhaannggee By Karl Falk, June 1, 2016 In Austria, there are not man</div></a>
+<a class="pick-card" href="#/38"><div class="pick-meta"><span class="pick-no">#36</span><span class="pick-count">213words・2題</span></div><div class="pick-label">113年 英文 第28-29題</div><div class="pick-preview">Yan lived a good life in a big house. One day he invited a friend to dinner at his house. However, on the dinner table there was o</div></a>
+<a class="pick-card" href="#/39"><div class="pick-meta"><span class="pick-no">#37</span><span class="pick-count">171words・2題</span></div><div class="pick-label">113年 英文 第22-23題</div><div class="pick-preview">It was around eight o’clock on Saturday night. Philip was at home with his little brother, Jason. Jason was hungry and kept crying</div></a>
+<a class="pick-card" href="#/40"><div class="pick-meta"><span class="pick-no">#38</span><span class="pick-count">254words・6題</span></div><div class="pick-label">114年 英文 第38-43題</div><div class="pick-preview">Most kids want gifts from their parents on their birthdays, but Cameron doesn’t. On his birthday, he gives his mom a gift. He 38 d</div></a>
+<a class="pick-card" href="#/41"><div class="pick-meta"><span class="pick-no">#39</span><span class="pick-count">253words・3題</span></div><div class="pick-label">114年 英文 第35-37題</div><div class="pick-preview">In the picture is a UK electricity worker in the 1970s. Pictures like this appeared in many newspapers at the time. In 1972, elect</div></a>
+<a class="pick-card" href="#/42"><div class="pick-meta"><span class="pick-no">#40</span><span class="pick-count">235words・3題</span></div><div class="pick-label">114年 英文 第32-34題</div><div class="pick-preview">Many years ago, Dan Ariely bought a cabinet from IKEA. IKEA is a famous furniture store that sells boxes of furniture parts. Peopl</div></a>
+<a class="pick-card" href="#/43"><div class="pick-meta"><span class="pick-no">#41</span><span class="pick-count">216words・3題</span></div><div class="pick-label">114年 英文 第26-28題</div><div class="pick-preview">At 5 o’clock every morning, while most people are sleeping, 16-year-old Libby Larson is already up. She mops the floor, gets the m</div></a>
+<a class="pick-card" href="#/44"><div class="pick-meta"><span class="pick-no">#42</span><span class="pick-count">179words・3題</span></div><div class="pick-label">114年 英文 第29-31題</div><div class="pick-preview">Around the year 400, people came to Easter Island. So many trees here! In their free time, they loved They used trees to make fire</div></a>
+<a class="pick-card" href="#/45"><div class="pick-meta"><span class="pick-no">#43</span><span class="pick-count">345words・5題</span></div><div class="pick-label">115年 英文 第35-39題</div><div class="pick-preview">The Future of Icelandic Scandinavian News by Anna Adams Icelandic is a language that is spoken only in Iceland. It has a long hist</div></a>
+<a class="pick-card" href="#/46"><div class="pick-meta"><span class="pick-no">#44</span><span class="pick-count">290words・4題</span></div><div class="pick-label">115年 英文 第40-43題</div><div class="pick-preview">A long time ago, there was an old king who had no child of his own. The king was worried that his land would fall into the wrong h</div></a>
+<a class="pick-card" href="#/47"><div class="pick-meta"><span class="pick-no">#45</span><span class="pick-count">199words・3題</span></div><div class="pick-label">115年 英文 第32-34題</div><div class="pick-preview">SEA GLASS: GLASS BOTTLES’ SECOND LIFE Sea glass is made from the magic of the sea. It usually comes from glass bottles that are th</div></a>
+<a class="pick-card" href="#/48"><div class="pick-meta"><span class="pick-no">#46</span><span class="pick-count">191words・3題</span></div><div class="pick-label">115年 英文 第29-31題</div><div class="pick-preview">With heavy hearts, we are here to say goodbye to Rose Lacey, a wonderful writer who will be sadly missed. Rose and I first met in </div></a>
+<a class="pick-card" href="#/49"><div class="pick-meta"><span class="pick-no">#47</span><span class="pick-count">168words・2題</span></div><div class="pick-label">115年 英文 第27-28題</div><div class="pick-preview">One summer evening when English cello player Beatrice Harrison was practicing in her garden, she was joined by a visitor she did n</div></a>
+</div></section>
+<section class="dark center-slide" data-background-color="#03492d"><div class="hero">
+<h1 class="big2">閱讀大挑戰</h1>
+<p class="lead">下面 47 篇是<b>真正的會考長文</b>，四科混在一起。</p>
+<p class="lead2">先讀文章、猜猜哪一科 — <b>點一下</b>揭曉！</p></div></section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#1</span>
+<span class="subj" data-label="113年 國文 第33-35題"></span>
+<span class="qwc">568字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">2018年流傳一段影片，片中美國前總統歐巴馬竟語出驚人地說：「川普總統<br>完全是個笨蛋！」儘管片中歐巴馬臉部表情、肢體語言都像極了他，但卻不是本<br>尊。影片隨後出現演員皮爾，原來這是他模仿的影片，藉由深偽技術，竟可變成<br>歐巴馬談話的片段。美國媒體製作這段影片的目的在提醒大眾，此類影片極可能<br>成為操縱輿論的利器。當它漸趨氾濫時，散布者的罪惡感也會相對減少，最大的<br>危機就是造成民眾對社會產生不信任感，逐步地破壞民主制度。<br>深偽技術能製作的除了影像，也包括文字與聲音。一般人說的「人工智<br>慧」，是一個很大的架構，其中一個領域是「機器學習」。而深偽技術是屬於<br>「機器學習」裡的「深度學習」，它是以深度神經網路為架構，對資料表徵進行<br>學習的演算法。<br>深度學習技術在偽造影像的生成與辨識，是運用「生成對抗網路」，由<br>「生成器」和「辨識器」兩個神經網路組成。生成器就像是演算法透過大量資料去<br>學習狗的模樣，直到可以畫出狗。辨識器則是可以分辨畫的狗和照片的狗。這兩個<br>模型結合後，就像是一邊有一個人畫狗，另一邊有一個老師說這跟真的狗差很多，<br>所以畫的人要再修改。直到有一天這個人畫的狗能騙過老師，而老師在一次次判斷<br>中也越來越厲害。偽造影像的生成與辨識，就是生成器和辨識器之間的競賽。<br>深偽技術是近年新興的科技，若將它運用於影視作品，可節省製作電影或遊<br>戲的時間，有正面的效益。但也有人利用合成的假影像操弄資訊，進而詐騙牟<br>利、毀人聲譽，製造社會的動盪，讓這項技術引發爭議。<br>——改寫自〈臺灣團隊研究辨識Deep Fake影片 深偽技術的正邪之戰開打〉</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">33.</span>根據本文，下列圖表何者最適合用來呈現「人工智慧」、「機器學習」、<br>「深度學習」三者之間的關係？</div><div class="question-card"><span class="qnumline">34.</span>根據畫線處的文句，下列關係的說明，何者最接近文中「偽造影像的生成」與<br>「偽造影像的辨識」兩者之間的競爭？<br>(A)就像是光源和影子，透過光源的運用可使影子出現各種變化<br>(B)就像是投影機和螢幕，投影機投射的影像須藉螢幕顯示出來<br>(C)就像是自來水和水龍頭，當水龍頭開得越大，自來水的出水量就越大<br>(D)就像是駭客與防毒軟體，當駭客發展出新病毒，防毒軟體就會再更新</div><div class="question-card"><span class="qnumline">35.</span>根據本文，下列關於深偽技術或深偽影片的敘述，何者最恰當？<br>(A)美國媒體藉由皮爾模仿的深偽影片操縱民主<br>(B)演員可以透過深偽技術增進自己的表演技巧<br>(C)氾濫的深偽影片將導致民眾對社會的信任度下降<br>(D)深偽技術的爭議在人類的創意會被人工智慧取代</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 33 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 34 題</div><div class="aval">D</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 35 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#2</span>
+<span class="subj" data-label="113年 國文 第25-26題"></span>
+<span class="qwc">556字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">最近經常想起愛丁堡。<br>可能是冬天到了的緣故，我就想起那個寒冷的城市。但想起愛丁堡時，記<br>憶幾乎都局限在從宿舍到圖書館的一段路。其他的地方，有時連路名都想不起<br>來了。我在那個城市住了三年多，但從離開的那天起，有關它的記憶卻迅速風<br>乾縮小，失去細節的厚度。<br>在愛丁堡的期間，最常走的一段路，是從宿舍到國家圖書館。有時也會為<br>了特定的資料，改去大學總圖或神學院圖書館。我喜歡圖書館，尤其老圖書館<br>厚重的木頭桌椅，沉靜的氣氛和古書味。但每天最盼望的還是我給自己訂下的<br>休息時間——下午三四點時到對街的大象咖啡館喝咖啡，吃杏仁牛角麵包，看<br>報紙。那家咖啡館有一面窗正對著峭壁上的愛丁堡古城。從溫暖嘈雜的咖啡<br>館，遠望冷峻的城堡，好像一種提醒。城堡的歷史以千年計，峭壁以萬年計，<br>眼下我以時日計算的時間，不過是零頭。<br>二十幾歲的時候，人和城市的關係是有目的性的，有了目的就偏頗。你去<br>到一個地方，心裡清楚它不是終點，只是為了完成些什麼，然後又收拾行李往<br>別處去。例如留學，每個留學生的心裡都有一張時間表，底限是完成學業回家<br>的時間——而那往往和獎學金的年限有關。懷著這張時間表生活，每一天都不<br>是獨立的日子，「現在」不只是現在，是朝向日後而存在，日子長長地投影在<br>未來。<br>那是一種生活在他方。只是當時不覺得匆忙，往後回想，才看出其中的風<br>塵僕僕。那時我們都還不知道，攜帶著單一的目標去生活是件挂一漏萬的事。<br>二十來歲時銳意求知，要到稍晚才學會，那個尖銳的姿態，同時也是狹窄的。<br>—— 張惠菁〈冬城〉</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">25.</span>關於文中的「我」，下列敘述何者最恰當？<br>(A)在愛丁堡的期間是帶有目的性的停留<br>(B)認為去大象咖啡館是一種偏頗的決定<br>(C)因沉浸在老圖書館的氛圍裡而忘卻時間<br>(D)討厭愛丁堡的寒冷而不願回想留學時光</div><div class="question-card"><span class="qnumline">26.</span>文末「那個尖銳的姿態，同時也是狹窄的。」這句話的意思，最可能是下列何者？<br>(A)粗心大意，挂一漏萬的情況一再出現<br>(B)年少時個性尖銳，只想處處與人爭鋒<br>(C)器量狹小，容不下別人一丁點的錯誤<br>(D)眼前只有單一的目標，視野不夠開闊</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 25 題</div><div class="aval">A</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 26 題</div><div class="aval">D</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#3</span>
+<span class="subj" data-label="113年 國文 第36-37題"></span>
+<span class="qwc">403字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">古阿明昨天在茶園裡畫的作品，郭雲天認為是近一個月以來最好的一幅，也<br>是最使他滿意的一幅。<br>古阿明畫的是茶蟲。那真是個奇異的幻想世界。在一面圖案化的綠色畫面<br>上，各種各樣的大小茶蟲畫得猙獰可怖。此外還有幾個人物——古阿明曾向郭雲天<br>說那三個人是姊姊，小弟弟和他自己。茶蟲有的在拼命地啃茶葉，有的在吃畫面上<br>的一個人物手裡捧著的飯，有的在吃另一個人物的衣服。古阿明那小小的心靈裡的<br>憤恨與恐懼，靠著他那獨特的，大膽的筆觸，毫無遺漏地表露出來。<br>郭雲天只有暗嘆的份兒，幾乎沒有提供意見的餘地，因為古阿明一開始作<br>畫，就好像已忘了周遭的一切，連他所尊敬的師長在身旁也都似乎渾然忘卻，手不<br>停揮地畫下去。直到畫好後，郭雲天才得到機會提出他的修改意見。他指示他哪裡<br>的顏色還不夠鮮明，哪一筆線條還要加強。<br>事實上，郭雲天的意見也不多。他不忍破壞掉那純潔的心靈裡所流露出來<br>的，敏銳得就如電流一般的感覺。甚至他明知畫裡的一條蟲在生卵是錯誤的，也還<br>是讓他保持原來的面目。他認為與其改正過來，倒毋寧這個樣子較合他的年歲。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">36.</span>根據本文，古阿明想透過畫作表達的意義，最可能是下列何者？<br>(A)以茶蟲代表大自然對人類開發的反撲<br>(B)以茶蟲象徵政府官員對老百姓的監控<br>(C)茶蟲不僅啃食茶葉，也啃食了古阿明一家日常生活所需<br>(D)茶蟲為了生存無所不吃，就像古阿明為了學畫多方嘗試</div><div class="question-card"><span class="qnumline">37.</span>根據本文，郭雲天對古阿明的畫作意見不多，原因最可能是下列何者？<br>(A)希望古阿明能自己發現缺失<br>(B)想要保留古阿明特有的創意<br>(C)古阿明作畫時太專注，給意見也聽不進去<br>(D)古阿明的畫作太完美，無法再提更多建議</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 36 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 37 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#4</span>
+<span class="subj" data-label="113年 國文 第27-28題"></span>
+<span class="qwc">388字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">綏夫特《格理弗遊記》（舊譯《格列佛遊記》或《大小人國遊記》）在<br>中文世界裡幾乎是人盡皆知的兒童奇幻文學，但在英文世界裡它其實是一部用<br>來諷刺人性、英國時政與權貴的作品。原書有四冊，但許多中譯本只有第一、<br>二冊的《小人國》、《大人國》，使人無法窺其全貌。<br>在原始版本中，小人國國王將三種不同顏色的細絲線：藍、紅、綠，賞賜<br>給表演類似凌波舞舞技最佳的三個人。其實不同顏色的絲線，是分別影射當時<br>三種頒予爵士的勳章：藍色綬帶的嘉德勳章、紅色綬帶的巴斯勳章、綠色綬帶<br>的薊勳章。因為凌波舞高手的筋骨要很柔軟，綏夫特用來影射沒有骨氣的人才<br>能得到寵愛、成為高官。但也因為暗示過於明顯，出版商擔心會得罪當道，所<br>以在出版時將絲線的顏色改為紫、黃、白。顏色一改，寓意就煙消雲散。<br>此外，早期的中文版有誤譯之處。如原書中應指「醫學」一詞，卻被譯者<br>翻成「格物學」。所學的內容一變，主人翁船醫的身分也就變了，在長途航行<br>中該如何發揮所學令人有些困惑。由此可見，翻譯時被誤解的內容，有時會有<br>極大的影響。<br>——改寫自中央研究院「研之有物」網站</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">27.</span>根據本文，出版社把原書絲線的顏色改掉，造成的影響最可能是下列何者？<br>(A)失去原本的隱喻，使讀者無法感受作者諷刺的用意<br>(B)混淆勳章的配色，使讀者誤解不同貴族的代表顏色<br>(C)過度渲染舞蹈的功能，以為是貴族階層流行的風尚<br>(D)刻意淡化階級的對立，營造出社會繁榮和諧的假象</div><div class="question-card"><span class="qnumline">28.</span>根據本文，關於綏夫特《格理弗遊記》的敘述，下列何者最恰當？<br>(A)作者致力於創作兒童奇幻文學作品<br>(B)作者以虛構的情節反映現實的醜惡<br>(C)早期中文譯者將原書的四冊內容濃縮為兩冊<br>(D)早期譯者用「格物學」一詞是為免得罪當道</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 27 題</div><div class="aval">A</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 28 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#5</span>
+<span class="subj" data-label="113年 國文 第29-30題"></span>
+<span class="qwc">383字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">1990年代初研究人員設計出一套評估方法，是為了計算出當年度的「地球<br>超載日」。今年（2022年）的「地球超載日」在7月28日，代表在這一天，我們<br>已經耗盡當年度地球的永續資源，在剩餘的時間裡，都將以透支的方式消耗地<br>球資源。據此，養活全世界的人口要1.75個地球的資源才夠。每個國家帶給地球<br>的負擔也大不同，如果每個人的生活方式都跟美國人一樣，那2022年地球超載<br>日會落在3月13日。<br>根據這套方法往回推算1971年，地球超載日是12月 25日，之後就一路提<br>前。2000年地球超載日落在9月，2018年起提前到7月。2020年因Covid-19疫情爆<br>發，地球超載日曾往後延了三週，但隔年就恢復到疫情前的情況。<br>非政府組織世界自然基金會與全球生態足跡網將矛頭指向食品生產系統及<br>其龐大的生態足跡：整體來說，地球上超過一半的生物承載力是用來養活人<br>類。很大一部分的糧食和原物料是用於畜牧，人們再吃掉這些動物。富裕國家<br>應減少肉品消費，如果可以將肉品消費量減半，地球超載日就可以延後17天。<br>由於全世界1/3的食物被浪費掉，所以限制食物浪費可將超載日延後13天。<br>——改寫自「地球超載日」網站</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">29.</span>根據本文，關於人類對地球資源的消耗，下列敘述何者最恰當？<br>(A)1990年之前，人類並未透支地球資源<br>(B)2022年人類耗用的地球資源是前一年的1.75倍<br>(C)每年的地球超載日之後，全球資源就會消耗殆盡<br>(D)美國人的生活方式比多數國家的人對地球造成更大的負擔</div><div class="question-card"><span class="qnumline">30.</span>根據本文，下列何者最可能使地球超載日延後？<br>(A)提升畜牧業整體產量<br>(B)加強野生動物保育工作<br>(C)增加飲食中蔬食的比例<br>(D)嚴防Covid-19疫情再爆發</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 29 題</div><div class="aval">D</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 30 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#6</span>
+<span class="subj" data-label="113年 國文 第40-42題"></span>
+<span class="qwc">258字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">楚人江乙為郢大夫。有入王宮中盜者，令尹以罪乙，請於王而黜之。其母<br>往言於王曰：「妾夜亡布八匹，令尹盜之。」王謂母曰：「令尹信盜之，寡人<br>不為其富貴而不行法焉。若不盜而誣之，楚國有常法。」母曰：「令尹不身盜<br>之也，乃使人盜之。」王曰：「其使人盜奈何？」對曰：「昔孫叔敖之為令尹<br>也，道不拾遺，門不閉關，而盜賊自息。今令尹之治也，耳目不明，盜賊公<br>行，是故使盜得盜妾之布，是與使人盜何以異也？」王曰：「令尹在上，寇盜<br>在下，令尹不知有何罪焉？」<br>母曰：「昔日妾之子為郢大夫，有盜王宮中之物者，妾子坐而黜，妾子亦<br>豈知之哉？然終坐之。令尹獨何人，而不以是為過也？昔者周武王有言曰：<br>『百姓有過，在予一人。』上不明則下不治，相不賢則國不寧。王其察之。」<br>——改寫自《列女傳》</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">40.</span>根據本文，下列文句「」中的字義，何者說明最恰當？<br>(A)妾夜「亡」布八匹：損壞<br>(B)令尹「信」盜之：隨意<br>(C)妾子「坐」而黜：受罰<br>(D)王「其」察之：難道</div><div class="question-card"><span class="qnumline">41.</span>根據本文，下列關於令尹與楚王的敘述何者最恰當？<br>(A)令尹打算偷盜布匹再將罪責嫁禍給他人<br>(B)令尹主張楚國盜賊橫行是須正視的問題<br>(C)楚王覺得宮中之物被盜應是令尹的責任<br>(D)楚王認為不論身分地位都應該遵守法律</div><div class="question-card"><span class="qnumline">42.</span>根據本文，江母見楚王的目的最可能是下列何者？<br>(A)想要替兒子江乙頂罪<br>(B)表達江乙被懲處的不公<br>(C)向楚王告發郢大夫的罪行<br>(D)建議楚王再用孫叔敖為令尹</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 40 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 41 題</div><div class="aval">D</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 42 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#7</span>
+<span class="subj" data-label="113年 社會 第52-54題"></span>
+<span class="qwc">374字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">1950年代，臺灣電影為配合政府「反共抗俄」政策，政府所屬片廠拍攝的<br>電影，幾乎都是配合官方意識形態的政治宣傳工具，而民間則出現以歌仔戲劇<br>本與民俗故事為素材，並用閩南語發音的「臺語電影」。1960年代，因政府強<br>調社會安定，臺灣電影開啟「健康寫實」風格，主張電影劇情應避免暴露社會<br>的黑暗面，呈現人性的光輝，受到當時海內外華人市場的歡迎。在1970年代經<br>濟成長之下，愛情、武俠、功夫、喜劇等電影類型，也進一步走入民眾的休閒<br>娛樂之中。<br>1980年代初期，臺灣電影受到香港電影新浪潮的影響，進入「 臺灣新電<br>影」時期。「新電影」發展初期的導演與編劇，在劇本創作上融入鄉土文學的<br>題材，拍攝風格以強調自然、寫實為主，在題材的選用上，開始有意識的挑戰<br>官方政治禁忌，而受到相關單位的關切。例如「新電影」初期代表作《兒子的<br>大玩偶》，在正式上映前，因電影片段中呈現臺北違建林立等有礙政府形象的<br>畫面，遭官方施壓要求刪減，此事件後來被稱為「削蘋果事件」。最後借助影<br>視記者楊士琪等人的聲援，才使得電影逃過被刪剪的命運。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">52.</span>根據上文，「新電影」出現之前的戰後臺灣電影，最不可能播映下列何種劇情？<br>(A)中國 明朝年間，來自各路的武功高手在龍門客棧展開激烈戰鬥<br>(B)國軍將領對抗日軍時陣亡，蔣中正題字「英烈千秋」表示悼念<br>(C)男主角與豪門望族的女兒產生戀情，並捲入家族間的恩怨情仇<br>(D)主角因二二八事件遭到軍警處決，留下妻小長期受到政府監視</div><div class="question-card"><span class="qnumline">53.</span>根據上文，「新電影」發展之初，最可能以下列何者作為電影題材？<br>(A)宣揚政府推行南進政策所帶來的經濟成就<br>(B)關注一般農民、勞工等小人物生活中的困頓<br>(C)受到美援影響，將美國流行文化作為劇情主軸<br>(D)重視原住民文化，發揚原住民族音樂與神話傳說</div><div class="question-card"><span class="qnumline">54.</span>上文「削蘋果事件」中，國家企圖限制的人民權利類型，與下列何者最相似？<br>(A)對法庭上的被告宣告褫奪公權<br>(B)剝奪貪污罪犯應考公職的資格<br>(C)禁止過度血腥暴力影像的出版<br>(D)要求外國旅客入境應接受審查</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 52 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 53 題</div><div class="aval">B</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 54 題</div><div class="aval">C</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#8</span>
+<span class="subj" data-label="113年 社會 第46-48題"></span>
+<span class="qwc">262字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">過去《道路交通管理處罰條例》中的「電動自行車」，僅以電力驅動行<br>駛，因與電動機車的使用差異不大，且不須懸掛車牌、不須駕照、駕駛者無年<br>齡限制、價格較低廉，部分民眾喜愛以它作為代步工具，卻也衍生諸多問題。<br>2022年4月時，政府修正《道路交通管理處罰條例》，將「電動自行車」更<br>名為「微型電動二輪車」，加入應領用並懸掛車牌進行管理、投保強制汽車責<br>任保險、年滿14歲才能駕駛等規定，違規者將遭主管機關開罰，並於5月4日由<br>總統公布。此外，若在修正規定施行前就已持有微型電動二輪車的車主，須在<br>施行後的二年內領用並懸掛車牌，逾期亦將受罰。<br>由於法規修正後，仍有諸多行政工作需要時間準備，因此政府宣布這些修<br>正規定在2022年11月30日才正式施行。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">46.</span>根據文中第一段內容判斷，相較於電動機車，部分民眾喜愛使用電動自行車<br>的原因，最可能為下列何者？<br>(A)該產品的市場競爭程度日漸提升<br>(B)選擇使用該項產品的機會成本較低<br>(C)受匯率變化影響，產品販售價格調降<br>(D)負向誘因增加，民眾使用產品意願提高</div><div class="question-card"><span class="qnumline">47.</span>文中政府於2022年4月所做的變革，其過程須經下列哪一程序？<br>(A)公民投票複決<br>(B)憲法法庭審理<br>(C)行政機關移請覆議<br>(D)中央立法機關通過</div><div class="question-card"><span class="qnumline">48.</span>根據文中內容判斷，在修正規定施行前已持有微型電動二輪車者，關於其領<br>用車牌的敘述，下列何者最適當？<br>(A)最晚要在2024年5月3日領用車牌，以免遭受行政處罰<br>(B)最晚要在2024年5月3日領用車牌，以免遭受刑事處罰<br>(C)最晚要在2024年11月29日領用車牌，以免遭受行政處罰<br>(D)最晚要在2024年11月29日領用車牌，以免遭受刑事處罰</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 46 題</div><div class="aval">B</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 47 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 48 題</div><div class="aval">C</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#9</span>
+<span class="subj" data-label="113年 自然 第49-50題　（含圖/表）"></span>
+<span class="qwc">204字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">工業革命後，因大量使用化石燃料，使得大氣中二氧化碳的濃度逐漸增加。<br>圖(二十五)為大氣中二氧化碳濃度隨時間的變化圖，圖中的濃度出現週期性的變化。<br>圖(二十五)<br>在秋、冬季節，樹葉落到地面腐爛，並以二氧化碳的形式釋放回大氣中。在<br>春、夏季節，植物生長並進行旺盛的光合作用，反應式如下：<br>因此與秋、冬季節相比，春、夏兩季大氣中的氧氣濃度可能會略有上升，而<br>二氧化碳濃度會下降。受季節的影響，二氧化碳濃度大約會增減5～10 ppm，使<br>二氧化碳濃度出現2～3%的週期性變化，而氧氣的濃度也會有週期性變化。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">49.</span>圖(二十五)中的二氧化碳濃度變化資料，整張圖所呈現的時間範圍約為多久？<br>(A) 5個星期<br>(B) 5個月<br>(C) 5年<br>(D) 50年</div><div class="question-card"><span class="qnumline">50.</span>文末提及「氧氣的濃度也會有週期性變化」，其變化百分比與理由，下列何者<br>最合理？<br>(A)因CO 的分子量大於O ，故O 的變化百分比會比2～3%要小很多<br>2 2 2<br>(B)因CO 的分子量大於O ，故O 的變化百分比會比2～3%要大很多<br>2 2 2<br>(C)因大氣中O 的濃度比CO 高得多，故O 的變化百分比會比2～3%要小很多<br>2 2 2<br>(D)因大氣中O 的濃度比CO 高得多，故O 的變化百分比會比2～3%要大很多</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 49 題</div><div class="aval">C</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+<div class="answer-card"><div class="anum">第 50 題</div><div class="aval">C</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#10</span>
+<span class="subj" data-label="113年 自然 第44-45題　（含圖/表）"></span>
+<span class="qwc">160字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">再生能源包括太陽能、風力、水力、地熱、生質能等種類，具有溫室氣體排<br>放量低等環境友善優勢，發展再生能源已成為國際趨勢。圖(二十三)為某國2020年<br>的發電方式比例圖，表(十二)為燃煤電廠與燃氣電廠的空氣汙染物排放比較。<br>該國政府希望未來以能源轉型降低溫室氣體的排放，廢除核能使用、逐年增<br>加再生能源比例，並將燃煤發電改採燃氣發電為主，兼顧用電需求與環境保護。<br>表(十二)<br>圖(二十三)</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">44.</span>根據本文，下列何者最符合該國政府對未來發電方式的期望？<br>（此題選項為圖／表，請見原始試題本）</div><div class="question-card"><span class="qnumline">45.</span>根據本文，將燃煤發電改採燃氣發電為主，可達到下列何種目的？<br>(A)減少每發一度電時所需耗費的金錢<br>(B)減少每發一度電時空氣汙染物的排放<br>(C)增加再生能源在整體能源使用的比例<br>(D)增加每發一度電時所排放的溫室氣體量</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 44 題</div><div class="aval">A</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+<div class="answer-card"><div class="anum">第 45 題</div><div class="aval">B</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#11</span>
+<span class="subj" data-label="114年 國文 第29-31題"></span>
+<span class="qwc">586字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">【甲】<br>電影大師希區考克曾說：「製作一部偉大的電影需要三樣東西：劇本、劇<br>本、劇本。」由此可見劇本對電影的重要性。在劇本中，對白固然重要，但劇<br>本必須深植於令人感覺真實的世界裡，才能有生命，也才能攫住觀眾。而視覺<br>化寫作，就能創造出這個世界來。<br>劇本中的視覺化寫作指的是：除了對白之外的所有部分，亦即視覺描述。<br>任何試圖藉由文字勾勒出圖像的描寫方式，就是視覺化寫作。視覺化寫作的要<br>素有以下四種：<br>一、場景外觀：劇中的地點看起來如何？須具體寫出地點的獨特之處。別<br>只是說廚房裡有爐子和冰箱，而要說出這個廚房的特色。<br>二、場景事件：場景中發生什麼事？火車呼嘯而過？小鳥飛過窗邊？角色<br>周遭有什麼正在發生？<br>三、角色外貌：劇中角色看起來是整潔體面還是不修邊幅？雙眼有神還是<br>疲憊？他們穿的是制服或是便服？劇本作者選擇的視覺細節會透露角色的性格<br>及當下的狀態。<br>四、角色行動：角色如何行動？當這個角色聽見別人對他說「我愛你」，<br>他是低頭沉默或歡喜地跳起來？角色的肢體動作可以反映出他們的心理。<br>——改寫自〈視覺化寫作：4個電影劇本範例〉<br>【乙】<br>室內 安德魯的練習室<br>安德魯正在陰暗狹小的練習室裡，試著打出雙跳。在他左前方銀灰色譜架上的<br>電子節拍器，正在閃爍，紅色的電子數字顯示目前速度設定在380。<br>安德魯停下，重新設定為390。又繼續打擊。試著跟上。再調整節拍器到400。<br>現在完全跟不上。全力以赴、汗流浹背、雙手起泡，這時——<br>喀啦。安德魯的右鼓棒斷成兩半。<br>他停下來。疲憊。看著自己的手。渾身冒汗，雙手發痛。<br>回頭看節拍器。仍在嗶嗶作響。他將它關上。<br>抬頭看海報中的人物——巴迪．瑞奇俯在鼓上。<br>——改寫自電影劇本《進擊的鼓手》</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">29.</span>根據甲文，關於劇本的創作，下列敘述何者最恰當？<br>(A)增加對白的比例可讓電影更有視覺效果<br>(B)要看懂電影必須先學習視覺化寫作的技能<br>(C)視覺化寫作可讓讀劇本的人較容易掌握情境<br>(D)希區考克認為視覺化寫作是劇本最重要的部分</div><div class="question-card"><span class="qnumline">30.</span>關於乙劇本的寫作分析，下列何者最恰當？<br>(A)透過極簡的對白讓事件留有餘韻<br>(B)藉「關上」一詞讓角色間有衝突<br>(C)以節拍器故障凸顯角色性格的偏執<br>(D)用狀聲詞「喀啦」製造情節的轉折</div><div class="question-card"><span class="qnumline">31.</span>乙劇本畫線處的文句，最無法呼應甲文中哪一項視覺化寫作的要素？<br>(A)場景外觀<br>(B)場景事件<br>(C)角色外貌<br>(D)角色行動</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 29 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 30 題</div><div class="aval">D</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 31 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#12</span>
+<span class="subj" data-label="114年 國文 第25-26題"></span>
+<span class="qwc">566字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">高二的外孫跟我說了一顆蛤蜊的故事。<br>這蛤蜊竟然有名字，叫「明」。明是隻北極圓蛤，目前已知最長壽的多細<br>胞動物，活了超過五百年，科學家推估其出生於明朝，於是命名「明」。孫子<br>再三強調：「據說，北極海底，隱藏著比明更老的蛤蜊！」<br>我也講了另一種蛤蜊的故事給他聽。<br>在外孫這年紀時，我跟著母親上山下海做各種勞動討生活。那個年代，累<br>得不得了時，抬頭一看，發現大家都辛苦，也就不會覺得自己特別苦。諸多體<br>力活中，我最喜歡到海邊挖「公呆」。<br>牠們喜歡成群生活在淺灘，若有動物接近，會一起噴水警示。這樣做或許<br>能嚇走水鳥，但正好讓人發現位置，勢眾又跑不快，是不是蛤蜊呆？所以被人<br>叫做公「呆」。<br>公呆不只呆，還很懶，總是攤平在爛泥表面，只求有層薄土蓋得住殼就好，<br>又動不動就噴水虛張聲勢，更容易被發現。撿拾公呆不須花太多力氣，唯一要<br>注意的是，公呆殼很薄，文蛤閉殼後像石頭，碰撞也不太會破損，但公呆殼用<br>兩根手指一捏就碎裂，所以耙開土的動作要小，輕輕翻開土後再慢慢撿就好。<br>「外婆，讓人這樣撿，很快會絕種！」講環保的一代不滿地抗議。<br>「你以為所有蛤蜊都像那隻明，能活五百年？公呆本就活不過一年，秋天<br>一到，天氣一冷，沒被吃掉，牠們也成群成群死掉，全變成白殼骨。」<br>孫子說：「外婆，公呆不是因為懶惰而不潛得更深來保護自己，牠們實在<br>是殼太薄，承受不了壓力，才會攤平在淺灘上！反正一輩子也沒多長，一起躺<br>好晒晒太陽，還能趁活著時，享受一點溫暖和陪伴。要是像明一樣，活在冰冷<br>的北極深海裡，公呆們應該是受不了的。」<br>果然在躺平年代裡，更容易理解躺平生物。<br>—— 改寫自毓秀〈公呆〉</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">25.</span>根據本文，下列關於公呆的敘述何者最恰當？<br>(A)若移至深海生活，可以延長生命<br>(B)噴水嚇阻敵人，反而暴露藏身處<br>(C)閉殼後像石頭，碰撞也不易破損<br>(D)群體死亡前，會一起躺平晒太陽</div><div class="question-card"><span class="qnumline">26.</span>關於本文的寫作分析，下列何者最恰當？<br>(A)以祖孫對話暗示不同世代價值觀的差異<br>(B)以作者童年拾蛤經驗抒發對親人的懷念<br>(C)藉北極圓蛤明彰顯生態永續發展的重要<br>(D)藉公呆的形象比喻活到老學到老的態度</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 25 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 26 題</div><div class="aval">A</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#13</span>
+<span class="subj" data-label="114年 國文 第36-37題"></span>
+<span class="qwc">517字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">南唐 後主 李煜跪在明德樓前，白衣素袍，向宋太祖 趙匡胤歸降時，內心肯<br>定百感交集。他想過以後的歷史，怎麼寫他嗎？《舊五代史》直接把十國裡凡稱<br>帝的都貶為「僭偽列傳」，南唐當然也逃不了。《新五代史》稍稍客氣，但也僅<br>以「世家 」定位。《舊五代史》南唐部分只寫到烈主 李昪、中主 李璟，並沒<br>有後主 李煜。《新五代史》雖提及李後主，但入宋的部分不寫。<br>為何新、舊《五代史》如此定位？這就必須了解中國史家重視傳統王朝興替的<br>「正統情結」。趙匡胤是借「陳橋兵變」、「黃袍加身」而當上皇帝，其政權正當<br>性，乃繼承北方中原的政權更替。以此史觀來看，唐朝滅亡後在中原相繼更迭的北方<br>政權：後梁、後唐、後晉、後漢、後周，便被視為正統，其他政權則被視為僭越。<br>然而紛亂的五代十國，主戰場就在北方中原。五代國祚最短的是後漢，三年<br>多換了兩個君主。最長的是後梁，十七年四個皇帝。何況，五代王位之爭，經常是<br>血腥暴力、骨肉相殘，朝廷難有建樹，更談不上人文建設、經濟民生。<br>「君王唯兵強馬壯者得之」，五代帝王幾乎沒幾位是有高度文化修養的。反<br>倒是十國裡的南唐前後維持近四十年，只經歷三個皇帝，沒有繼承權的紛亂，政權<br>相對穩定。且南唐三位國君都重視文教，珍藏圖書，蒐羅書畫，建立教坊，網羅<br>畫師，一時之間南唐成了文化重鎮。宋朝雖然滅了南唐，可是汴京皇城裡的文化資<br>產，有多少是來自南唐啊！<br>——改寫自蔡詩萍《李後主事件簿》<br><br>1.世家：紀傳體史書體例之一，諸侯王傳記的體例為<br>「世家」，帝王則為「本紀」</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">36.</span>關於文中新、舊《五代史》對南唐君主的記載，下列敘述何者最恰當？<br>(A)《舊五代史》記錄李昪，是因為認同他的正統地位<br>(B)新、舊《五代史》都不肯承認南唐君主的帝王身分<br>(C)南唐君主在《舊五代史》的定位比在《新五代史》高<br>(D)《新五代史》不承認北方政權，故未提及李後主入宋</div><div class="question-card"><span class="qnumline">37.</span>根據本文，下列何者最接近作者的觀點？<br>(A)應該重視王朝興替的「正統情結」<br>(B)北方政權相對穩定，有利於人文建設<br>(C)肯定李氏三代重視文教，對文化的貢獻<br>(D)趙匡胤借「陳橋兵變」稱帝，是為僭越</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 36 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 37 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#14</span>
+<span class="subj" data-label="114年 國文 第34-35題　（含圖/表）"></span>
+<span class="qwc">295字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">包裝袋裡的空氣比洋芋片多？盒內的穀片變少了？這都不是你的錯覺，廠商<br>這種「價格不變、分量減少」的「縮水式漲價」策略已重出江湖。近來許多商<br>品以「偷斤減兩」的方式變相漲價，從衛生紙、早餐穀片到貓罐頭都有。<br>某些品牌為了避免顧客看到售價上漲，採用「縮水式漲價」，讓顧客支付<br>一樣的價格，但產品內容變少。甚至以更極端的手法「剋扣式漲價」，表面上<br>價格不變，產品品質卻下降。<br>調查發現，62%受調者表示，如果採用縮水式或剋扣式漲價，他們可能停止<br>購買該產品，比單純漲價的反應還激烈。與其再繼續使用蹩腳的漲價方式，一<br>些企業選擇走另一條路，比如：推出銅板價格的小包裝新品項，或是用搭售方<br>式，讓消費者誤以為買到更便宜的產品。如此一來，消費者不易與原先的價格<br>比較，也就緩和了抗拒購買的心理。<br>——改寫自《商業周刊》</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">34.</span>根據本文，下列店家的說明何者最不可能是「縮水式漲價」？<br>（此題選項為圖／表，請見原始試題本）</div><div class="question-card"><span class="qnumline">35.</span>根據本文，消費者對企業選擇的「另一條路」較不抗拒的原因，最可能是下列<br>何者？<br>(A)較可感受廠商回饋的誠意<br>(B)較符合實際上的使用需求<br>(C)較能與同類產品產生區隔<br>(D)較難直觀察覺價格的改變</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 34 題</div><div class="aval">A</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 35 題</div><div class="aval">D</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#15</span>
+<span class="subj" data-label="114年 國文 第27-28題　（含圖/表）"></span>
+<span class="qwc">284字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">灰面鵟鷹是過境臺灣的候鳥。每年十月起，牠們遠從日本、西伯利亞或中國<br>東北而來，經過墾丁，前往菲律賓的度冬地，到了三月，再集結北返。<br>研究灰面鵟鷹十多年的人員曾經透過無線電追蹤，了解牠們的遷徙路線。春<br>季牠們會從度冬地開始北遷，一條路線是從臺灣東南外海的蘭嶼，經過琉球北<br>上，回到日本繁殖地。另一條路線則是從臺灣的西岸通過，回到中國東北、北<br>韓或日本一帶。位在臺灣中部的八卦山，因為地理位置而成為牠們重要的休息<br>站。<br>每年春天，成千上萬的灰面鵟鷹從南方來，彰化人稱牠們「南路鷹」。<br>八卦山的次生林環境，提供了豐富的食物來源。另外，猛禽遷徙過程依靠氣流<br>滑翔，必須利用山脈地形，尋找上升氣流，再提升高度，八卦山正好就提供這<br>樣的地理條件。<br>——改寫自〈留住八卦驛站〉</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">27.</span>小原根據本文與圖(一)畫了一張灰面鵟鷹遷徙路線圖，如圖(二)。小嵐認為<br>小原在圖中標示的遷徙路線有疏漏和錯誤，他提出了下列說法。對照本文<br>後，何者可以成立？<br>圖(一)<br>圖(二)<br>(A)北上的路線應該在臺灣南部出海<br>(B)北上的路線少畫了經由蘭嶼的這條<br>(C)南下的路線不應該經由墾丁出海<br>(D)南下的路線少畫了從中國來的這條</div><div class="question-card"><span class="qnumline">28.</span>根據本文，八卦山成為灰面鵟鷹重要休息站的原因，最可能是下列何者？<br>(A)林相完整，雨量豐沛 (B)地形獨特，容易識別<br>(C)食物豐富，地形適合 (D)氣候溫暖，適合繁殖</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 27 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 28 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#16</span>
+<span class="subj" data-label="114年 社會 第49-51題　（含圖/表）"></span>
+<span class="qwc">368字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">巴斯人的祖先原本居住於伊朗高原一帶，七世紀上半葉，阿拉伯軍隊擊敗<br>統治當地的薩珊王朝國王伊嗣俟，不願被穆斯林統治的人們遠離故鄉，遷徙至<br>印度半島西部避難。此後數個世紀，伊斯蘭教勢力逐漸進入印度，但印度的穆<br>斯林統治者對於不同的宗教和文化，表現出較為寬容的態度。這使巴斯人得以<br>在印度從事貿易等行業，並世代信仰發源於伊朗高原的宗教。<br>十七世紀後期，善於經商的巴斯人，開始與歐<br>洲商人合作，既促進印度西部城市孟買等地的繁<br>榮，也使得巴斯人隨著歐洲商人來到中國進行貿<br>易。十八世紀後期至十九世紀中期，巴斯商人在歐<br>洲殖民勢力對中國的貿易網絡之中，扮演重要角<br>色，並與控制印度的殖民者一起在中國活動。當時<br>巴斯商人留下許多會館與墓園，圖(二十)墓碑即為<br>一例。 圖(二十)<br>十九世紀中期以後，因為美國內戰導致紡織業原料短缺，以及蘇伊士運河<br>開通促進航運事業發展等影響，巴斯商人傾向加強投資印度和歐洲的產業，而<br>對中國的商貿占比則逐漸下降。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">49.</span>巴斯人的宗教信仰，最可能是下列何者？<br>(A)祆教<br>(B)佛教<br>(C)猶太教<br>(D)基督教</div><div class="question-card"><span class="qnumline">50.</span>十九世紀上半葉，巴斯人與中國商人的主要貿易模式，最可能是下列何者？<br>(A)巴斯人賣瓷器到中國以換取茶葉<br>(B)巴斯人賣鴉片到中國以取得白銀<br>(C)巴斯人賣鹿皮到中國以獲得棉花<br>(D)巴斯人賣茶葉到中國以交換工業品</div><div class="question-card"><span class="qnumline">51.</span>關於圖(二十)墓碑文字的解讀，下列何者最適當？<br>(A)當時類似的巴斯墓葬，多集中於今日山東 青島一帶<br>(B)根據時間可確認，此人於《南京條約》簽訂前來華<br>(C)此人為孟買出身，顯示其生前主要與日本商行合作<br>(D)碑刻的紀年方式，反映巴斯人珍視薩珊王朝的歷史</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 49 題</div><div class="aval">A</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 50 題</div><div class="aval">B</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 51 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#17</span>
+<span class="subj" data-label="114年 社會 第46-48題"></span>
+<span class="qwc">330字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">我國現行汽、機車車牌號碼的編碼規則，原則上每組號碼皆是由英文字母與<br>阿拉伯數字組成，但在民意反應及諸多考量下，有些數字、英文字母或是特定組<br>合，已不再使用於新發放的車牌。例如：數字的「4」，是因為其發音與「死」字<br>相近，一般民眾認為觸霉頭而不願使用；英文字母的「I」、「O」不再被使用，<br>是因為與數字「1」、「0」太相似；至於BAD、BUM、END等，則由於字母組合<br>具有負面意涵，因此也加以排除。<br>除此之外，政府也開放民眾可額外付費選擇號碼，有些民眾會想要擁有<br>6666、8888、9999等特殊號碼的車牌，因此這些號碼的價格常遠高於其他車牌；也<br>有另一些民眾只對與生日、特殊紀念日有關的號碼組合有興趣，因此選擇購買這<br>些特定號碼。至於不在意車牌號碼的民眾，則可接受政府發放一般組合的車牌，<br>無需額外支付選號費。但不論最後是選擇哪一個車牌號碼，汽、機車所有人都要<br>將車牌懸掛在指定位置，違規者將被警察依《道路交通管理處罰條例》開罰。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">46.</span>多數國家使用0～9這十個數字作為車牌編碼的組合，但我國僅使用其中九個<br>數字。根據文中內容判斷，其原因最可能為下列何者？<br>(A)倫理價值具有約束力<br>(B)民間習俗具有強制力<br>(C)法律規定受宗教信仰影響<br>(D)政府施政受社會規範影響</div><div class="question-card"><span class="qnumline">47.</span>文中關於民眾選擇車牌號碼的敘述，最適合用來說明下列哪一觀點？<br>(A)廠商之間的價格競爭將使消費者受惠<br>(B)市場的競爭程度越高對消費者越有利<br>(C)負向誘因促使民眾的行為發生改變<br>(D)不同人對同一誘因的感受有所不同</div><div class="question-card"><span class="qnumline">48.</span>某民眾的車牌被別人惡意拔走，導致他違反文末所述的規定而受罰。若該民<br>眾對此處罰不服，依法採行下列何種處理方式最適當？<br>(A)向中央立法機關提出訴願<br>(B)向地方行政機關提出請願<br>(C)透過行政救濟途徑維護權益<br>(D)透過刑事訴訟途徑維護權益</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 46 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 47 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 48 題</div><div class="aval">C</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#18</span>
+<span class="subj" data-label="114年 社會 第52-54題　（含圖/表）"></span>
+<span class="qwc">283字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">坐落在南大西洋的南喬治亞島，其<br>位置如圖(二十一)所示。冰天雪地的環<br>境下，島上仍孕育了為數眾多的海獅、<br>象鼻海豹、國王企鵝和特有種鳥類。<br>1775年庫克船長登島後，宣布其為<br>英國領土並以當時的英王命名。二十<br>世紀初該島設有數個捕鯨站，目前皆<br>已廢棄。1927年，鄰近該島的甲國聲稱<br>擁有該島主權，此領土紛爭成為日後<br>與英國爆發戰爭的原因之一，1982年戰<br>爭結束後，該島仍為英國所管轄。目<br>圖(二十一)<br>前該島幾乎沒有常住人口，為觀光船<br>行程的中繼站。<br>2017年，一座面積約4,200平方公里的龐大冰山，脫離陸地後持續在海上漂<br>流，圖(二十一)顯示該冰山於不同時間的位置。該冰山雖然持續崩裂、融化，但<br>仍相當巨大，2020年科學家依據過去其他冰山漂流的軌跡，推測它極有可能撞<br>上南喬治亞島，並研判可能產生的影響。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">52.</span>根據圖(二十一)中的資訊判斷，與英國產生領土紛爭的國家應為下列何者？<br>(A)南非<br>(B)澳洲<br>(C)阿根廷<br>(D)紐西蘭</div><div class="question-card"><span class="qnumline">53.</span>依據上文及圖(二十一)中的資訊判斷，該冰山漂流的方向應為下列何者？<br>(A)東北向西南<br>(B)西南向東北<br>(C)東南向西北<br>(D)西北向東南</div><div class="question-card"><span class="qnumline">54.</span>上述冰山若撞上南喬治亞島，其產生的影響最可能為下列何者？<br>(A)巨浪侵襲島嶼陸地，阻礙工業發展<br>(B)附近海水鹽度上升，改變海洋生態<br>(C)威脅北美洲與非洲之間的船隻安全<br>(D)島嶼海岸遭受破壞，危及動物棲地</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 52 題</div><div class="aval">C</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 53 題</div><div class="aval">B</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 54 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#19</span>
+<span class="subj" data-label="114年 社會 第43-45題　（含圖/表）"></span>
+<span class="qwc">265字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">位於墨西哥首都的國立人類學博物館，館藏以當地古文明的文物為主，大約<br>有六十萬件。博物館的建築設計，呼應該地古文明信仰中的四種自然力量：風、<br>火、水、土元素，充滿與大自然的共融感。<br>一樓的展示廳為常設展，其中一塊區域專門展示當<br>地古文明的農業。由於農業發展與宗教神話有密不可分<br>的關係，因此展覽廳特別展示了保佑農業生產的神官雕<br>像，如圖(十九)所示。神官雕像手中握著的物品，是原<br>產於美洲的作物，也是當地古文明所倚重的主食。<br>雖然博物館的收藏相當豐富，但在展品的說明上，<br>受過去殖民歷史影響，大多僅採用今日當地的官方語<br>文。若改善上述不足之處，勢必能造福更多到館參觀的<br>外國旅客，增進對當地文化的了解。<br>圖(十九)</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">43.</span>下列何項展品，最可能屬於該博物館的主要館藏？<br>（此題選項為圖／表，請見原始試題本）</div><div class="question-card"><span class="qnumline">44.</span>圖(十九)神官雕像手中所持的物品，最可能是下列何者？<br>(A)玉米 (B)橄欖 (C)小麥 (D)稻米</div><div class="question-card"><span class="qnumline">45.</span>文中博物館的展品說明，最可能以何種語文為主？<br>(A)英文 (B)法文 (C)葡萄牙文 (D)西班牙文</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 43 題</div><div class="aval">B</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 44 題</div><div class="aval">A</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 45 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#20</span>
+<span class="subj" data-label="114年 自然 第43-44題　（含圖/表）"></span>
+<span class="qwc">398字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">綠蒜頭是一種醃漬食品，一般做法約20天可使蒜頭變綠色。陳同學想要探究<br>影響蒜頭變綠色的原因，進行的實驗與說明如下：<br>蒜頭燒杯：先將蒜頭剝皮後，選取大小相近的蒜頭每6顆放入一個燒杯，共數杯。<br>實實驗驗一一：在數個蒜頭燒杯中各倒入15.0 mL食醋，杯口封膜後置於10℃的低溫環境存<br>放，每天記錄蒜頭的「變色比例」。<br>變色的蒜頭數量<br>變色比例＝ ×100%<br>全部的蒜頭數量<br>結果發現到第6天有6%蒜頭開始變綠色，直到第15天，所有蒜頭全部開始<br>變綠色。<br>實實驗驗二二：因為全部變色的時間較長，所以陳同學改變存放蒜頭燒杯的溫度，步驟<br>如下：<br>1. 在數個蒜頭燒杯中各倒入15.0 mL食醋，杯口封膜。<br>_<br>2. 分別置於三種溫度環境( 13℃、10℃、25℃)，存放3天。<br>3. 由於蒜頭皆無變色，所以全部改置於25℃的環境繼續存放，於第5天時，<br>變色比例如表(十)。<br>表(十)<br>實實驗驗三三：根據實驗一、二的結果，陳同學設計實驗三，探究蒜頭置於不同水溶液<br>後變綠色的變因。步驟如下：<br>1. 在數個蒜頭燒杯中分別倒入四種不同的水溶液15.0 mL，並加水稀釋至pH值<br>均為3.0，杯口封膜。<br>2. 置於10℃的環境，存放3天。<br>3. 由於蒜頭皆無變色，所以全部改置於25℃的環境繼續存放，於第5天時，<br>變色比例如表(十一)。<br>表(十一)</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">43.</span>根據實驗結果，關於不同溫度對蒜頭變綠色的影響，下列說明何者最合理？<br>(A)全程在10℃，變色的速率最快<br>(B)全程在25℃，變色的速率最快<br>(C)先低溫處理，接著改在25℃放置會減緩變色的速率<br>(D)先低溫處理，接著改在25℃放置會加快變色的速率</div><div class="question-card"><span class="qnumline">44.</span>僅根據實驗三的結果，推測使蒜頭變綠色的有利環境，最可能是下列何者？<br>(A)酸性越弱的環境 (B)酸性越強的環境<br>(C)有– COOH原子團的環境 (D)沒有– COOH原子團的環境</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 43 題</div><div class="aval">D</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+<div class="answer-card"><div class="anum">第 44 題</div><div class="aval">C</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#21</span>
+<span class="subj" data-label="114年 自然 第49-50題　（含圖/表）"></span>
+<span class="qwc">166字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">阿平想以一顆球作為模擬月球運行造成月相變化的道具，他先將球的其中一半<br>塗黑，表示月球未受陽光照射的部分。圖(三十)為由球的正上方往下看的俯視圖，<br>圖(三十一)則是進行模擬操作時，由頭頂正上方往下看的俯視圖。他將自己模擬成<br>地球的位置，並將球置於甲處，以模擬上弦月時的月、地相對位置狀態，並依<br>箭頭的路徑將球慢慢從甲處移至乙處，使球在乙處時模擬下弦月時的狀態。<br>圖(三十) 圖(三十一)</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">49.</span>考量月球在甲、乙兩處的月相，下列俯視圖何者最可能是阿平進行模擬時，球<br>於兩處的亮暗面分布狀態？<br>（此題選項為圖／表，請見原始試題本）<br>(cid:908) (cid:2003)(cid:1139) (cid:1176)</div><div class="question-card"><span class="qnumline">50.</span>根據圖(三十一)模擬的月球移動路徑，當月球由甲處移動至乙處的這段時間，<br>地球自轉或繞太陽公轉了幾圈？<br>(A)地球大約自轉了半圈 (B)地球大約自轉了15圈<br>(C)地球繞太陽大約公轉了半圈 (D)地球繞太陽大約公轉了15圈</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 49 題</div><div class="aval">C</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+<div class="answer-card"><div class="anum">第 50 題</div><div class="aval">B</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#22</span>
+<span class="subj" data-label="115年 國文 第30-32題"></span>
+<span class="qwc">718字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">親愛的馬爾萬，在我童年的漫長夏天裡，那時我跟你現在一樣大，你叔叔們和<br>我會在你爺爺的農舍屋頂上鋪開床墊，那是在霍姆斯城郊外。<br>馬爾萬，①我希望你和我一樣記住霍姆斯。在它繁華的老城，有一座我們穆斯<br>林的清真寺，一座我們基督徒鄰居的教堂，還有一座我們所有人的大市場，我們在那<br>裡為金項鍊和新鮮食材以及新娘禮服討價還價。<br>我希望你記得那滿是炸羊肉丸子味道的擁擠小巷，還有那些晚上，②我們和你<br>媽媽一起在鐘樓廣場附近散步。但是那樣的生活，那個時候，現在看來都像是夢，就<br>算對我來說，都像消失很久的傳聞。<br>先是抗議示威，然後是被圍困。天空布滿炸彈，到處是飢餓的人民，與接連不<br>斷的葬禮，這些你是知道的。你知道的那些母親們、姊妹們和同學們有可能被埋在水<br>泥、磚塊和外露的房梁間的狹窄細縫裡，陽光照射下的小塊皮膚在黑暗中閃閃發光。<br>你媽媽今晚也在這裡，馬爾萬，和我們在一起。在這寒冷的月光照耀的海灘<br>上，在啼哭的嬰兒中間，在憂慮地說著我們不會講的語言的女人中間。阿富汗人、索<br>馬利亞人、伊拉克人還有敘利亞人，我們所有人都在焦急地等待日出，所有人又在害<br>怕日出，我們所有人都在尋找家園。<br>我聽說我們是不速之客，我們是不受歡迎的，我們應該把災禍帶到別處去。但<br>我聽到了你媽媽的聲音，越過潮水，她在我耳邊低語：「噢，如果他們看見，親愛<br>的，哪怕只有你所見的一半，只要他們能看見，他們一定會說出善意的話的。」<br>我看見你的側臉，在下弦月的光輝中，我的孩子，你的睫毛就像阿拉伯書法一<br>樣，在你沉靜的睡眠中緊閉著。我對你說：「抓住我的手，不會有壞事發生。」<br>我今夜能想到的，是海有多深，多寬廣，多冷漠。我是多麼無能為力，沒能在<br>它面前保護好你。我能做的就是祈禱，祈禱真主讓船航行在正確的方向。③當海岸退<br>出視野，我們只是波濤中的一個小點，一旦絆倒或站不穩，很容易就會被吞沒。<br>因為你，是珍貴的船貨，馬爾萬。④有史以來最珍貴的船貨。<br>我多麼希望大海能明白這一點。<br>――改寫自卡勒德．胡賽尼《海的祈禱》</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">30.</span>根據本文，畫線處的文句何者最能看出爸爸對孩子的重視？<br>(A) ① (B) ② (C) ③ (D) ④</div><div class="question-card"><span class="qnumline">31.</span>本文中的「我」和馬爾萬，身分最可能是下列何者？<br>(A)移民到阿拉伯半島的基督徒 (B)為戰亂國家運送物資的船員<br>(C)來自戰爭地區的穆斯林難民 (D)幫災民遠離砲火摧殘的善人</div><div class="question-card"><span class="qnumline">32.</span>關於本文的寫作分析，下列敘述何者最恰當？<br>(A)藉記憶中的畫面，呈現霍姆斯的今昔變化<br>(B)列舉多個國家的名稱，凸顯了航程的漫長<br>(C)以等待日出的場景，傳達近鄉情怯的不安<br>(D)透過海的深廣，比喻母親話中溫暖的力量</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 30 題</div><div class="aval">D</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 31 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 32 題</div><div class="aval">A</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#23</span>
+<span class="subj" data-label="115年 國文 第26-29題"></span>
+<span class="qwc">716字・4題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">【甲】<br>2050年全球將有七成的人居住在城<br>市，城市必須供養70億人口，但密集開發<br>的城市哪還有多餘的土地可耕作？為解決<br>城市糧食供應的問題，垂直農場應運而<br>生。<br>城市垂直農場是把水平的農場，改造<br>成種滿植物的摩天大樓，用營養液代替土<br>壤，用LED燈取代陽光，這些彷彿科幻小<br>說的情節，在專家的努力下正一步步成<br>真。垂直農法在密閉的室內種植農作物，<br>壓縮了空間，讓效益極大化，節約土地也節約用水量，用水僅是傳統土壤種植<br>的十分之一。而樓上種菜、樓下賣菜的經營方式，縮短了食物里程，減少了長<br>途運送的資源浪費。<br>垂直農場發想者的本意在解決全人類的問題，然而這種耕作方法現階段仍<br>有個無法克服的難關，就是生產成本太高。目前只能為少數人服務，無法養活<br>全世界。全球人口稠密的城市，有四分之三分布在亞洲，因此相較其他地方，<br>亞洲的大都市更加支持垂直農場的發展。<br>――改寫自〈未來城市――垂直農場〉<br>【乙】<br>荷蘭某業者耗鉅資三億歐元，打造全球第<br>一座海岸漂浮牧場。業者認為把牧場搬到城市<br>的河岸或海岸線，一來節能減碳，二來也為氣<br>候變遷海平面上升、土地減少的問題找到解決<br>之道。<br>這座位於鹿特丹港邊的建築，可說是荷<br>蘭循環經濟的展示間。它的屋頂可收集雨<br>水，旁邊的太陽能面板，可提供整棟建築所<br>需的四成電力。①上層的空間可容納40頭乳牛，一天約產出800公升的鮮奶，<br>②乳牛的飼料來自當地高爾夫球場、運動場修剪後的草屑以及啤酒廠用過的穀<br>物、麩，全部自動收割混合後，再定時、定量送到乳牛面前。③連擠牛奶和清<br>理排泄物的工作，也都由機器代勞，且乳牛的排泄物會被回收再製成肥料。樓<br>層中設有加工區，④可直接將乳製品銷往當地，減少運輸成本。參觀者也可在<br>現場按下開關直接購買未經高溫消毒的鮮奶。<br>但也有研究人員指出這種模式可能較適合用在農業而非畜牧業。「乳牛應<br>該在自然棲息地漫步。現在把牠們搬到非常工業化的環境，對許多人而言，會<br>認為這不是對待牠們應有的方式。」<br>――改寫自〈鹿特丹海岸漂浮牧場落成開放參觀〉</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">26.</span>根據甲文，下列關於垂直農場的推論，何者最恰當？<br>(A)產量與用水量皆高出土壤種植方式<br>(B)受天然風災直接的影響少於傳統農業<br>(C)亞洲因生產成本較低，更適合垂直農場的發展<br>(D)2050年全球將有七成的人必須吃垂直農場栽種的蔬菜</div><div class="question-card"><span class="qnumline">27.</span>「循環經濟」強調的是資源可持續回復，循環再生。乙文畫線處的做法，何者<br>最能呼應「循環經濟」？<br>(A) ①<br>(B) ②<br>(C) ③<br>(D) ④</div><div class="question-card"><span class="qnumline">28.</span>乙文提及「研究人員指出這種模式可能較適合用在農業而非畜牧業」，其原因<br>最可能是下列何者？<br>(A)友善動物<br>(B)生產效能<br>(C)產品價格<br>(D)消費需求</div><div class="question-card"><span class="qnumline">29.</span>根據甲、乙二文，「垂直農場」與「漂浮牧場」共同的特點不包含下列何者？<br>(A)可以減少食物里程<br>(B)設置地點都在城市<br>(C)生產所需的資金成本高<br>(D)運作時需投入大量人力</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 26 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 27 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 28 題</div><div class="aval">A</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 29 題</div><div class="aval">D</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#24</span>
+<span class="subj" data-label="115年 國文 第37-38題"></span>
+<span class="qwc">451字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">東非草原上，鐮莢金合歡樹提供原生舉尾蟻花蜜與住所，而舉尾蟻會保護<br>金合歡免受食草性動物侵害，並攻擊啃食金合歡的非洲象。21世紀初，外來的<br>熱帶大頭家蟻突然出現在肯亞，牠們會殺死舉尾蟻並吃掉其幼體，讓非洲象得<br>以肆無忌憚地啃食金合歡。<br>另一方面，金合歡減少，也令獅子在捕獵斑馬時難以掩蔽。研究團隊為了<br>解金合歡減少是否會影響獅子獵食，在肯亞保護區的稀樹草原上建立十幾個研<br>究區塊，追蹤金合歡景觀變化、斑馬族群密度、熱帶大頭家蟻出現情況以及獅<br>子殺死斑馬的情況。<br>經過3年的監測，團隊發現沒有舉尾蟻的金合歡被非洲象破壞的速度，比有<br>舉尾蟻的樹快5～7倍。這些區域的金合歡覆蓋面積急劇減少，使獅子很難偷偷<br>靠近並伏擊斑馬。而沒有熱帶大頭家蟻入侵的地區，斑馬遭獅子獵殺的情況較<br>前者高出兩倍以上。<br>令人驚訝的是，雖然接觸主要獵物的機會減少，但研究區域的獅子數量卻<br>保持穩定。根據其他研究數據，團隊發現當地獅子另外增加捕獵的對象：從<br>2003年到2020年，獅子獵殺斑馬的比例從67%下降到42%，而獵殺水牛的比例從<br>0%增加到42%。<br>針對這樣的結果，專家認為：這些入侵的螞蟻可能早就出現，但沒有人注<br>意。我們現在發現牠們以非常微妙的方式改變了生態景觀。<br>――改寫自《Science》2024年1月號</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">37.</span>根據本文，關於熱帶大頭家蟻入侵肯亞保護區後的生態變化，下列敘述何者最<br>恰當？<br>(A)獅子數量減少<br>(B)斑馬易受獅子攻擊<br>(C)金合歡易受大象破壞<br>(D)舉尾蟻不再攻擊大象</div><div class="question-card"><span class="qnumline">38.</span>依據本文引述的研究發現，無法說明下列何者？<br>(A)設置保護區有助於維護自然原始生態<br>(B)外來物種可能會對本地生態造成衝擊<br>(C)面對環境的變遷，生命自會找到出路<br>(D)破壞生物間的互利關係恐有連鎖反應</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 37 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 38 題</div><div class="aval">A</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#25</span>
+<span class="subj" data-label="115年 國文 第33-34題"></span>
+<span class="qwc">374字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">唐玄宗時，翰林有三種：翰林待詔、翰林供奉、翰林學士。<br>翰林待詔這個群體很雜，有詩人，有畫家，有經學家，有書法家，有醫<br>生，還有算命先生。這些人被唐玄宗包養起來，辦公之餘，或者出遊的時候，<br>把他們喊過去，陪著玩耍，說穿了，就是「幫閒」。<br>翰林供奉是翰林待詔裡的佼佼者，譬如說，你寫文章寫得非常漂亮，遠遠<br>超過別的翰林待詔，皇帝喊你喊得特別頻繁，今天讓你寫這個，明天讓你寫那<br>個，甚至讓你幫他處理奏章，那麼你就成了翰林供奉。<br>翰林學士又是翰林供奉裡的佼佼者，不光文筆一流，還通曉政治。朝廷把<br>這批人才從待詔和供奉裡發掘出來，讓他們單獨辦公。<br>不管是翰林待詔、翰林供奉，還是翰林學士，都沒有專門的品級。不過翰<br>林學士一般兼有其他職務，既是翰林學士，又是戶部尚書、禮部尚書、兵部侍<br>郎、吏部侍郎等等。雖然翰林學士不領薪水，但是尚書、侍郎卻有不菲的薪<br>水。翰林待詔和翰林供奉大都不兼職，可是他們卻有薪水，其中翰林待詔的薪<br>水參照九品京官，翰林供奉的薪水參照八品京官。<br>――改寫自李開周〈翰林的薪水〉</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">33.</span>關於文中翰林供奉的敘述，下列何者最恰當？<br>(A)可獨立辦公<br>(B)有很多兼職收入<br>(C)薪水比照八品京官<br>(D)不能幫皇帝處理奏章</div><div class="question-card"><span class="qnumline">34.</span>根據本文，下列推論何者最恰當？<br>(A)尚書和侍郎通常也兼任翰林供奉<br>(B)翰林學士處理政務的能力優於翰林供奉<br>(C)翰林待詔是唐玄宗重要的行政幕僚之一<br>(D)翰林待詔與翰林學士的差別在專門品級的高低</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 33 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 34 題</div><div class="aval">B</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#26</span>
+<span class="subj" data-label="115年 國文 第35-36題　（含圖/表）"></span>
+<span class="qwc">265字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">兩千多年前已有「投壺」這項活動，主要流行於先秦各國上流階層。投壺前，主<br>客間要彼此請讓之後才開始，體現以禮數為旨的精神，而非娛樂競技。秦 漢以後，投<br>壺始普及於民間，逐漸演變為酒席宴會上的餘興節目。<br>正式開賽時，每人四枝箭，主人站左，客人站右，在離壺兩箭半的<br>距離開始輪流投射。每投一箭，計分一次，未投入則得0分，由站在<br>壺側面的司射（主持人）計分。四箭投完，司射計算總分，並宣告<br>此局勝負，再由司正（監禮人）宣布罰酒。待三局兩勝，司正宣布<br>贏家，並由司射宣布比賽結束。<br>計 分方式如下：<br>【有初】當局第一箭就投中，得10分<br>【連中】當局前一箭投中後，次一箭也投中，得5分<br>【散箭】當局前一箭沒中，次一箭投中，得1分<br>【有終】當局前三箭都沒中，最後一箭投中，得15分</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">35.</span>根據本文，下列關於投壺的敘述何者最恰當？<br>(A)主人要讓分給客人<br>(B)由先秦的娛樂競技演變而來<br>(C)參賽者各以四箭算一局勝負<br>(D)司正以三局分數的總和判定贏家</div><div class="question-card"><span class="qnumline">36.</span>右表為某場投壺比賽的計分表， 客人投壺狀況 主人投壺狀況<br>「」表示投中，「」表示未投<br>第一局        <br>中。根據本文及右表，下列敘述何<br>第二局        <br>者正確？<br>第三局        <br>(A)第一局客人勝<br>(B)第二局主人勝<br>(C)第三局客人勝<br>(D)最終贏家是主人</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 35 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+<div class="answer-card"><div class="anum">第 36 題</div><div class="aval">C</div><p>先確認題目問法，再回到文本找依據；避免只憑印象作答。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#27</span>
+<span class="subj" data-label="115年 社會 第52-54題"></span>
+<span class="qwc">326字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">1843年上海正式開港後不久，西方人就開始在上海租界內尋覓興建賽馬場的<br>地點，舉辦賽馬活動。當時管理賽事的單位為上海跑馬總會，會員全由西方人<br>組成。部分配合官方自強運動的中國商人家族，也想加入上海跑馬總會，卻總<br>是被西方人拒絕。因此中國商人另行籌組萬國體育會，在租界外修建新的賽馬<br>場，並於1911年開賽。<br>賽馬除了作為運動賽事之外，更以販售馬票的方式開放下注，以高額獎金吸<br>引民眾關注賽事。然而國民政府為籌措財源，於1933至1937年發行「航空公路<br>建設獎券」，靠著更便宜的彩券、更高額的獎金，將馬票打得潰不成軍。<br>1937年，租界外的賽馬場受到戰火破壞，租界內的賽馬場也在1941年後受到<br>日本控制。日本為了宣傳自己是東亞民族的解放者，特地開放中國人自由使用<br>租界內的賽馬場、足球場等體育設施，之後更進一步將租界交還日本扶植的中<br>華民國南京政府，上海租界的歷史就此走入尾聲。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">52.</span>上述中國商人家族所經營的事業，最可能為下列何者？<br>(A)調查戶口作為掌握稅收依據<br>(B)投資鐵路興築與煤鐵礦開採<br>(C)承辦國營企業，推行大躍進<br>(D)設置市舶司，造船往來西洋</div><div class="question-card"><span class="qnumline">53.</span>文中「航空公路建設獎券」的發行，最可能與下列何者有關？<br>(A)改革開放在沿海設經濟特區<br>(B)北伐結束後十年建設的展開<br>(C)庚子後新政推動的改革項目<br>(D)因應能源危機推行十大建設</div><div class="question-card"><span class="qnumline">54.</span>上文中國人得以自由使用租界內體育場館，最可能與下列何者有關？<br>(A)甲午戰爭結束，中國對日本割地賠款<br>(B)一次大戰爆發，日本占領德國租借地<br>(C)日 俄戰爭結束，日本驅逐俄羅斯勢力<br>(D)太平洋戰爭爆發，日本向同盟國宣戰</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 52 題</div><div class="aval">B</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 53 題</div><div class="aval">B</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 54 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#28</span>
+<span class="subj" data-label="115年 社會 第49-51題　（含圖/表）"></span>
+<span class="qwc">288字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">自古以來人們就知道要從農<br>作物找出有甜味的東西，製成糖<br>來食用。因環境的不同，各地<br>用來製糖的作物也有差異，如甜<br>菜、楓樹等，但公認最適合製糖的<br>是甘蔗。臺灣、印尼、菲律賓、<br>斐濟和古巴，都曾以蔗糖為重要<br>出口貨物。<br>日治時期，臺灣蔗田種植面<br>圖(十五) 圖(十六)<br>積廣大，當時政府為了增加產量，鼓勵設置新式製糖工廠，並公告製糖會社的<br>「原料採取區域」，圖(十五)為1928年時的分布。戰後糖廠成為國營事業，其<br>收入對當時國內的產業發展有極大助益，而為了提高產能，甚至有糖廠主管於<br>1950年寫詞創作廠歌，每天播放以激勵員工士氣，歌詞內容如圖(十六)。<br>然而時過境遷，糖廠的產品不侷限於糖，也產製酒精、有機肥、飼料等，<br>目前糖廠大多以進口粗糖再加工精製成細砂糖，部分糖廠也已轉型成觀光用<br>途，朝向多元化發展。</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">49.</span>上文中所述最適合製糖的作物，其主要生長環境最可能為下列何者？<br>(A)年雨量小於500mm<br>(B)最冷月均溫10°C以下<br>(C)海拔1,000公尺以上的山坡地<br>(D)南緯25度到北緯25度之間的地區</div><div class="question-card"><span class="qnumline">50.</span>上文廠歌歌詞的創作背景及圖(十六)描繪的情景，與下列臺灣哪一產業發展階<br>段的特色最相符？<br>(A)外銷食品加工產品扶植國內輕工業<br>(B)設立加工出口區吸引大量外商投資<br>(C)因應石油危機推動交通、能源等基礎建設<br>(D)持續推動農業轉型升級並發展高科技產業</div><div class="question-card"><span class="qnumline">51.</span>上文提及糖廠的多元化發展，其最主要的目的為下列何者？<br>(A)降低生產的運輸成本<br>(B)減少粗糖的關稅成本<br>(C)提高產業的附加價值<br>(D)增加甘蔗的種植面積</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 49 題</div><div class="aval">D</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 50 題</div><div class="aval">A</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 51 題</div><div class="aval">C</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#29</span>
+<span class="subj" data-label="115年 社會 第46-48題　（含圖/表）"></span>
+<span class="qwc">266字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">立法院在2019年通過《司法院釋字第七四八號<br>解釋施行法》，合法保障同性婚姻。<br>某日阿華收到一則網路訊息，他擔心訊息中提<br>及的疾病傳染情況惡化，覺得應該讓身邊的朋友知<br>道這個情況，所以將相關訊息發送至各通訊群組，<br>希望廣為流傳，如圖(十四)所示。<br>小明在群組上收到這則訊息，想確認訊息的真<br>實性，於是上網查詢我國政府公開的統計資料，如<br>表(八)。除此之外，小明也上網查詢其他各國的狀<br>況，得知聯合國將愛滋病毒盛行率定義為15至49歲<br>人口中感染愛滋病毒的人口比率，表(九)是其中部<br>圖(十四)<br>分國家的統計資料。<br>表(八) 表(九)<br>新增感染者 累積感染者 國家 中華民國 新加坡 泰國 越南<br>年分<br>個案數 ( 人 ) 個案數 ( 人 ) 盛行率 (%) 0.3 0.2 1.1 0.3<br>2017 2,519 35,935 國家 馬來西亞 西班牙 法國 美國<br>2018 1,993 37,919 盛行率 (%) 0.4 0.3 0.3 0.3<br>2019 1,756 39,669<br>2020 1,392 41,033<br>2021 1,247 42,263</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">46.</span>根據圖(十四)中內容判斷，阿華廣傳訊息所達成的效果，最可能是下列何者？<br>(A)透過社群網路影響公共意見 (B)善用大眾媒體爭取婚姻自由<br>(C)利用網路科技提供醫學新知 (D)成立民間團體推動法律變革</div><div class="question-card"><span class="qnumline">47.</span>根據表(八)與表(九)的資訊判斷，關於圖(十四)中阿華所傳遞的訊息，下列何<br>項解讀最適當？<br>(A)內容符合事實，因我國通過修法之後導致累積感染者人數增加<br>(B)內容符合事實，因我國的愛滋病毒盛行率比東南亞鄰近國家高<br>(C)內容與事實不符，因我國統計數據顯示新增感染者人數逐年減少<br>(D)內容與事實不符，因我國的愛滋病毒盛行率比歐、美先進國家低</div><div class="question-card"><span class="qnumline">48.</span>根據文中小明檢視網路訊息的過程判斷，顯示下列何者的重要性？<br>(A)對於跨越國界傳播的疾病，世界各國應共同合作防堵疫情<br>(B)對於各種媒體傳播的資訊，閱聽大眾應具備媒體識讀能力<br>(C)對於行政機關推動的政策，政府施政應秉持性別平等立場<br>(D)對於網路串流平臺的作品，使用者應避免侵害智慧財產權</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 46 題</div><div class="aval">A</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 47 題</div><div class="aval">C</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+<div class="answer-card"><div class="anum">第 48 題</div><div class="aval">B</div><p>圈出時代、地點與關鍵詞，對照圖表或題幹線索排除選項。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#30</span>
+<span class="subj" data-label="115年 自然 第48-50題　（含圖/表）"></span>
+<span class="qwc">187字・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">一般而言，鐵生鏽會消耗氧氣。小仲欲了解鐵粉可以和哪些<br>氣體反應而進行下列實驗：<br>1. 將3.0 g鐵粉浸泡在食醋中一段時間。<br>2. 以濾紙濾出鐵粉並移入針筒中，在針筒中通入O 後，將活塞定位<br>至5.00 mL刻度處，塞上塞子，如圖(三十二)。定時記錄黑色活塞 5<br>刻度位置。<br>3. 重複進行步驟1、2，並將步驟2通入的氣體依序換成空氣、<br>N 、CO 。實驗數據如表(四)。<br>2 2 表(四)<br>圖(三十二)<br>小仲發現組別四的數據有變化，和預期的不同。他查詢元素對氧的活性資料<br>如表(五)，欲判斷組別四針筒內是否發生氧化還原反應。<br>表(五)</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">48.</span>組別一、四通入針筒內的兩種氣體，可依序使用下列何種反應來製備？<br>(A)鹽酸和鎂帶反應、雙氧水分解反應<br>(B)鹽酸和鎂帶反應、鹽酸和碳酸鈣反應<br>(C)雙氧水分解反應、鹽酸和鎂帶反應<br>(D)雙氧水分解反應、鹽酸和碳酸鈣反應</div><div class="question-card"><span class="qnumline">49.</span>若忽略針筒內鐵粉所占去的體積，試判斷組別二針筒內的氧氣是否完全耗盡？<br>(A)全耗盡，消耗氣體比例等於氧氣含量<br>(B)全耗盡，消耗氣體比例已超過氧氣含量<br>(C)未耗盡，消耗氣體比例高於氧氣含量的<br>(D)未耗盡，消耗氣體比例接近氧氣含量的一半</div><div class="question-card"><span class="qnumline">50.</span>依據活性大小，判斷組別四針筒內的鐵粉理論上是否與氣體發生氧化還原反應？<br>(A)因鐵的活性較小，故鐵粉不會被氧化<br>(B)因鐵的活性較小，反應後鐵粉會被氧化<br>(C)因鐵的活性較小，反應後氣體會被氧化<br>(D)因鐵的活性較大，反應後鐵粉會被氧化</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 48 題</div><div class="aval">D</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+<div class="answer-card"><div class="anum">第 49 題</div><div class="aval">D</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+<div class="answer-card"><div class="anum">第 50 題</div><div class="aval">A</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#31</span>
+<span class="subj" data-label="115年 自然 第44-45題　（含圖/表）"></span>
+<span class="qwc">168字・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">圖(二十八)為暄暄用來記錄植物蒸散作用速率的裝置，管中的氣泡會隨著植<br>物的蒸散作用逐漸向右方移動，如箭頭所示，可以藉此推測植物的蒸散量。當需<br>要使氣泡回到起始點時，可打開閥門使注水管的水向下流，氣泡就會向左移動。<br>暄暄將此裝置放在室外一天，並重複於每一整點記錄氣泡的移動距離後，將氣泡<br>的位置重新移動回起始點以收集下一整點的數據，最後得到圖(二十九)的數據。<br>圖(二十八) 圖(二十九)</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">44.</span>根據本文，下列對圖(二十九)數據的敘述何者正確？<br>(A) 0～1時之間沒有發生蒸散作用<br>(B) 3～4時之間沒有發生蒸散作用<br>(C) 12～13時的平均蒸散速率為一天中最大值<br>(D) 6～7時的平均蒸散速率較7～8時的平均蒸散速率大</div><div class="question-card"><span class="qnumline">45.</span>若依據暄暄的方式操作實驗，但將實驗裝置移至通風良好的乾燥室內放置<br>兩天，則最不可能發生下列哪一種情況？<br>(A)第一、二天記錄到的氣泡移動距離總和相近<br>(B)在兩天的相同時段中，氣泡移動的距離相近<br>(C)植物氣孔關閉減緩蒸散，使管中氣泡移動量很小<br>(D)植物從氣孔吸收水分向下運輸，使管中氣泡向左移動</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 44 題</div><div class="aval">C</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+<div class="answer-card"><div class="anum">第 45 題</div><div class="aval">D</div><p>先看實驗條件與圖表數據，再判斷變因、趨勢或科學概念。</p></div>
+</div>
+</div></section>
+</section>
+<section class="dark center-slide english-bridge" data-background-color="#03492d"><div class="hero">
+<h1 class="big2">最後壓軸：英文閱讀</h1>
+<p class="lead">文藻是英文補習班，所以英文閱讀不能只是「看得懂單字」而已。</p>
+<p class="lead">真正會考的是：讀長文、抓主旨、找線索、判斷選項差異。</p>
+<p class="lead2">接下來把英文題組放在最後，專心練閱讀耐力。</p>
+</div></section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#32</span>
+<span class="subj" data-label="113年 英文 第36-39題"></span>
+<span class="qwc">311words・4題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">VOICES OF PEOPLE<br>If you want to learn about bringing back extinct animals, reading<br>John Smith’s Back from the Dead is a good start. But I have to say<br>I can’t agree with everything he says.<br>Ellen Zimmer<br>From his book, I can see Smith is an advocate of bringing extinct animals back. He<br>says we have lost many animals because we made their living spaces too dirty. He also<br>thinks we must do everything we can to bring them back. However, I don’t know how<br>much time and money we would need to make the world a better place for them, and<br>honestly no one knows if they could actually come back.<br>Smith also says that bringing back extinct animals may be good for us. He talks about<br>an extinct frog that grew tadpoles in its stomach. Some women’s babies die before they<br>are born, and Smith believes bringing back the frog may be an answer to the problem.<br>According to him, by studying how the tadpoles grow inside the frog’s stomach, we<br>might be able to find new ways to help these women successfully keep their babies. But<br>I don’t think things are as easy as Smith thinks. We have spent ten years and millions<br>of dollars on this kind of frog, but all we have got are only a few dead frog eggs. If we<br>can’t see a real frog, how can we be sure women will get the help they need?<br>Dr. Solomon Wang from the Animal Saving Office says the study of bringing back<br>extinct animals is “throwing good money after bad.” And he’s right. A lot of hard work<br>has been put into this expensive dream, but we haven’t seen anything come out of it.<br>So should we still keep going down this road?<br> extinct 絕種的 tadpole 蝌蚪</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">36.</span>What does it mean when someone is an advocate of something?<br>(A) They talk a lot but do little about it.<br>(B) They believe it is good and should be done.<br>(C) They have had some bad experiences with it.<br>(D) They are one of the first people who have done it.</div><div class="question-card"><span class="qnumline">37.</span>What is special about the extinct frog in Smith’s book?<br>(A) It can live in a dirty living space.<br>(B) It might help fix a health problem.<br>(C) It eats its babies when it cannot find food.<br>(D) It is the first extinct animal that people studied.</div><div class="question-card"><span class="qnumline">38.</span>Why does Ellen Zimmer use the words from Dr. Solomon Wang?<br>(A) To start a new topic.<br>(B) To share a big dream.<br>(C) To make her idea clearer.<br>(D) To invite people to take action.</div><div class="question-card"><span class="qnumline">39.</span>What does Ellen Zimmer most likely think about bringing back extinct animals?<br>(A) It is possible.<br> likely 可能<br>(B) It is dangerous.<br>(C) It is not possible.<br>(D) It is not dangerous.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 36 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 37 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 38 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 39 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#33</span>
+<span class="subj" data-label="113年 英文 第30-32題"></span>
+<span class="qwc">235words・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">Usually, people visit bookstores to buy books. But those who walk<br>into Cotoha come to see its owner, Chen Bing-Hong. They bring him<br>books with different problems. Some have lost their covers, some are<br>missing a few pages, and some have pages that are falling out. Chen can<br>always fix the books and make them whole again.<br>Chen sees himself as a doctor. He says that books, like people, get<br>sick and need help. In Taiwan, there are not many “doctors” like him,<br>and most of them work for big libraries and museums. If big libraries and<br>museums are hospitals, Chen’s bookstore is a health center. Big libraries<br>and museums fix important old books with serious problems, and Chen<br>helps people with books that have smaller problems. However, the smaller<br>size of the problems doesn’t mean Chen’s job is less important.<br>Chen gave an example of a science book he once worked on. It was<br>very old and half of its cover was lost. Its owner still wanted to keep it<br>because it was a gift from a teacher who helped him follow his dream of<br>studying science. When he got his book back, he was very surprised at the<br>new-old book. He felt he was brought back to the days with his teacher.<br>Seeing the owner’s smile made Chen happy, because smiles like that are<br>what his magic is for.</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">30.</span>Why does the writer talk about doctors and a health center in the reading?<br>(A) To explain Chen’s services.<br>(B) To talk about Chen’s future plans.<br>(C) To explain Chen’s love for books.<br>(D) To show why bookstores are important.</div><div class="question-card"><span class="qnumline">31.</span>Why is Chen Bing-Hong’s job important in the example he gave?<br>(A) It allows people to get books as gifts.<br>(B) It saves people money on new books.<br>(C) It gives people hope to follow their dreams.<br>(D) It helps people think of special moments in the past.</div><div class="question-card"><span class="qnumline">32.</span>What is his magic?<br>(A) Fixing books.<br>(B) Making book owners smile.<br>(C) Finding books that are long lost.<br>(D) Changing his bookstore into a library.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 30 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 31 題</div><div class="aval">D</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 32 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#34</span>
+<span class="subj" data-label="113年 英文 第40-43題"></span>
+<span class="qwc">224words・4題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">A HISTORY LESSON ON THE PANDEMIC<br>2020.10.29<br>Since the Covid-19 pandemic started, people have begun “social distancing”—<br>keeping a safe space between you and anyone you don’t live with. Though it<br>has been a very popular topic this year, social distancing 40 . In fact, it was<br>widely used in the U.S. in the flu pandemic in 1918. But how well did it work? The<br>Americans’ experience can tell us whether it really saved lives.<br>From the picture, we can see that 41 started social distancing earlier than<br>the other three cities. This helped the city keep the number of deaths down. Besides<br>taking early action, keeping the action long enough was also important in fighting<br>the pandemic. The picture shows that Portland and Denver did well in the first few<br>weeks. However, both cities 42 , and the numbers of deaths climbed again.<br>But there was one thing Portland did right. The city used several ways of social<br>distancing at the same time to deal with the pandemic. 43 , sick people were kept<br>away from healthy ones; schools were closed; public activities were not allowed. All<br>these were useful in keeping people safe.<br>The lessons of the 1918 pandemic bring us hope. While we are still learning to<br>fight Covid-19, social distancing may be the best way to get us through the dark days,<br>at least for now.<br> pandemic （疾病的）大流行 per 每(一)</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">40.</span>(A) is not a new idea<br>(B) has not been very useful<br>(C) may bring some problems<br>(D) is not welcomed by everyone</div><div class="question-card"><span class="qnumline">41.</span>(A) Portland<br>(B) New York<br>(C) Denver<br>(D) Pittsburgh</div><div class="question-card"><span class="qnumline">42.</span>(A) had higher numbers of deaths<br>(B) stopped social distancing too soon<br>(C) began social distancing a second time<br>(D) had the most days of social distancing</div><div class="question-card"><span class="qnumline">43.</span>(A) Also<br>(B) At first<br>(C) However<br>(D) For example</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 40 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 41 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 42 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 43 題</div><div class="aval">D</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#35</span>
+<span class="subj" data-label="113年 英文 第33-35題"></span>
+<span class="qwc">223words・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">AA DDeelliicciioouuss SSuurrpprriissee aanndd WWeellccoommee CChhaannggee<br>By Karl Falk, June 1, 2016<br>In Austria, there are not many restaurants like Habibi<br>&amp; Hawara. Here you can enjoy Austrian and Syrian<br>food together. Two Austrians, Martin Rohla and<br>David Kreytenberg, started this yummy plan from<br>their experience of working with refugees.<br>Every year, thousands of people have to leave<br>their homes and families because of war in their<br>countries. So many of them go to Austria that some<br>people in the country think they have become a problem. They are afraid refugees<br>may take away their jobs and they don’t feel safe around them, either. But Rohla<br>and Kreytenberg would beg to differ: The refugees don’t have to be a problem.<br>They want to help them start a new life. They invited refugees to meetings and<br>found that some of them were cooks back in Syria. So the idea of Habibi &amp; Hawara<br>was born—a restaurant that brings together Austrian and Syrian food. “The two<br>worlds far away from each other meet together,” Kreytenberg said.<br>But Rohla and Kreytenberg want to do more than just give the refugees work. They<br>want their best workers to buy the restaurant in the end. They hope that Habibi &amp;<br>Hawara is not just a one-time plan and that other Austrians will join them and help<br>more refugees.<br> refugee 難民 war 戰爭</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">33.</span>According to the reading, why did Rohla and Kreytenberg open Habibi &amp; Hawara?<br>(A) To help refugees live better in Austria.<br>(B) To collect money to help Syria fight the war.<br>(C) To help Austrians learn about the war in Syria.<br>(D) To help refugees go back to their home countries.</div><div class="question-card"><span class="qnumline">34.</span>What can we learn about Habibi &amp; Hawara?<br>(A) It was moved from Syria to Austria.<br>(B) It may finally be sold to its workers.<br>(C) It has cooking classes in Syrian food.<br>(D) It is an important meeting place for Syrians.</div><div class="question-card"><span class="qnumline">35.</span>What does it mean when people beg to differ?<br>(A) They do not agree.<br>(B) They look different.<br>(C) They cannot speak for others.<br>(D) They do not notice something.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 33 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 34 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 35 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#36</span>
+<span class="subj" data-label="113年 英文 第28-29題"></span>
+<span class="qwc">213words・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">Yan lived a good life in a big house. One day he invited a friend to dinner at his<br>house. However, on the dinner table there was only one small dish of one small fish.<br>The friend looked quietly at the fish. It was no bigger than a finger.<br>Then he asked Yan if he could borrow a lamp.<br>“What for?” Yan asked.<br>“Well, it’s so dark in here,” the friend said with a dry smile,<br>“I can’t see the other delicious dishes you’ve prepared for me.”<br>Chang kept a lot of ducks and chickens on his farm. One day, his best friend<br>came to visit him. At noon, Chang told his friend that he couldn’t let him stay for lunch<br>because there wasn’t much food to eat. The friend looked out at Chang’s farm animals<br>for a moment. Then he asked Chang if he had a big knife.<br>“Yes, but what for?” Chang asked.<br>“I’m thinking about killing the horse I rode here so we’ll<br>have something for lunch,” the friend said.<br>“But how are you going to go home without it?”<br>“Well, you wouldn’t mind lending me one of your many<br>ducks or chickens so I can ride it home, would you?”</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">28.</span>What kind of people do Yan’s and Chang’s friends most likely think  likely 可能<br>Yan and Chang are?<br>(A) They enjoy good food.<br>(B) They don’t like to share.<br>(C) They like to make friends.<br>(D) They don’t like new things.</div><div class="question-card"><span class="qnumline">29.</span>What is it in the second story?<br>(A) A big knife.<br>(B) The horse.<br>(C) Lunch.<br>(D) One of Chang’s ducks or chickens.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 28 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 29 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#37</span>
+<span class="subj" data-label="113年 英文 第22-23題"></span>
+<span class="qwc">171words・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">It was around eight o’clock on Saturday night. Philip was at home with his little<br>brother, Jason. Jason was hungry and kept crying. But Philip couldn’t cook and their<br>father was not home yet because he was working late in the office. So Philip decided to<br>take Jason out for some food.<br>Half an hour later, when they came back home, Philip was surprised to find that their<br>father was talking to the police and a woman outside their house. He didn’t know who<br>the woman was. She looked scared and stood behind the police. Philip’s father was very<br>angry and kept shouting, “I didn’t do anything wrong! I forgot my keys and was just<br>trying to get into MY OWN HOUSE!” But the police didn’t believe him until Philip ran<br>to them and explained everything.<br>The police told Philip that the woman called 110 when she saw Philip’s father trying<br>to get into a house through a window. That was how it all happened.</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">22.</span>Why did Philip go out?<br>(A) To meet a woman.<br>(B) To look for his father.<br>(C) To ask the police for help.<br>(D) To buy food for his brother.</div><div class="question-card"><span class="qnumline">23.</span>Why was Philip’s father angry?<br>(A) He forgot his keys.<br>(B) The woman was hiding from him.<br>(C) The police didn’t believe what he said.<br>(D) Philip and his brother went out at night.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 22 題</div><div class="aval">D</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 23 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#38</span>
+<span class="subj" data-label="114年 英文 第38-43題"></span>
+<span class="qwc">254words・6題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">Most kids want gifts from their parents on their birthdays, but Cameron doesn’t. On his<br>birthday, he gives his mom a gift. He 38 doing this in his first year of junior high<br>school. That year, during one class, he watched a video about how a baby is pushed from its<br>mother’s body. After class, 39 . How brave a woman is to have a baby! Thank God I’ll<br>never have to do that!<br>When Cameron came home that day, he held his mom in his arms for a long time. He<br>decided that his birthday 40 . During those nine months inside his mom, he just ate and<br>slept while his mom was doing all the hard work. So why should he get a birthday gift for<br>doing nothing? If anyone should get a gift on his birthday, it should be his mom.<br>The 41 “birthday gift” Cameron prepared was a bag of cookies he baked. The cookies<br>tasted so bad, but his mom said they were the best thing she ever got. Hearing that 42 .<br>It was so much better than getting a gift. Now, on his birthday every year, Cameron makes<br>a gift for his mother to thank her for giving him life.<br>This year, Cameron 43 his mom a nice dress. A few months ago, he learned to make<br>dresses at school and decided to make one for his mom. Now the dress is finished and<br>hanging behind Cameron’s bedroom door. He believes the gift will tell his mother how<br>much he loves her.</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">38.</span>(A) starts (B) started (C) has started (D) will start</div><div class="question-card"><span class="qnumline">39.</span>(A) he got quite scared of two things<br>(B) he still couldn’t understand two things<br>(C) he couldn’t stop thinking about two things<br>(D) he did two things that would change his life</div><div class="question-card"><span class="qnumline">40.</span>(A) should be spent helping his mom<br>(B) should be a time of welcoming a new start<br>(C) should not be about him, but about his mom<br>(D) should not be celebrated for just one day, but for nine months</div><div class="question-card"><span class="qnumline">41.</span>(A) first (B) last (C) only (D) other</div><div class="question-card"><span class="qnumline">42.</span>(A) made his head hurt (B) made his heart sing<br>(C) made him change his mind (D) made him give up baking</div><div class="question-card"><span class="qnumline">43.</span>(A) is going to give (B) gives (C) has given (D) gave</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 38 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 39 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 40 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 41 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 42 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 43 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#39</span>
+<span class="subj" data-label="114年 英文 第35-37題"></span>
+<span class="qwc">253words・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">In the picture is a UK electricity worker in the 1970s. Pictures like this appeared in<br>many newspapers at the time. In 1972, electricity workers in the UK asked to be paid more,<br>and they decided to stop working until their wish was answered. The government worried<br>that there wouldn’t be enough electricity for the country if these workers didn’t go to work,<br>so it agreed to give them the pay rise. However, the story didn’t end there.<br>A year later, the electricity workers asked for another pay rise. To get what they<br>wanted, they worked shorter hours and acted like they would walk away from their job<br>anytime. But this time, the government decided to fight. To save electricity, it made new<br>rules for people to follow. For example, each family could turn on the heat in only one<br>room; TV stations had to stop their shows at 10:30 p.m.; businesses could open only three<br>days a week.<br>People’s lives were greatly changed. Without enough heat to keep the house warm,<br>people covered themselves in blankets all the time. Hospitals had to use candles because<br>they couldn’t keep all the lights on. Factories couldn’t keep their machines working. Many<br>people lost their jobs. For months, people were paying the price while the electricity<br>workers were fighting for their wish. In the end, the government agreed to the second pay<br>rise. This picture shows what many people thought of the electricity workers during the<br>“dark” time.<br> electricity 電力 government 政府</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">35.</span>What is the reading mainly about?<br>(A) The tips on using a picture to tell a story.<br>(B) The change that electricity brought to people’s lives.<br>(C) The history behind the picture of a UK electricity worker.<br>(D) The story of a famous UK electricity worker from the 1970s.</div><div class="question-card"><span class="qnumline">36.</span>In the UK in the 1970s, what did people most likely think of the UK electricity workers?<br>(A) They were not brave enough to fix their problems.<br> likely 可能<br>(B) They worked like robots and never learned to change.<br>(C) They were asking too much and did not know when to stop.<br>(D) They did not care whether their job might hurt people’s health.</div><div class="question-card"><span class="qnumline">37.</span>Why does the writer put the “ ” mark around the word dark in the last sentence?<br>(A) To say that the “dark” time was actually not dark.<br>(B) To tell people that the word was said by the government.<br>(C) To mean both the days without lights and the difficult lives people lived.<br>(D) To show that the government and the electricity workers both lost their fights.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 35 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 36 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 37 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#40</span>
+<span class="subj" data-label="114年 英文 第32-34題"></span>
+<span class="qwc">235words・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">Many years ago, Dan Ariely bought a cabinet from IKEA. IKEA is a<br>famous furniture store that sells boxes of furniture parts. People who<br>buy them have to put all the parts together themselves. It took Ariely hours to build<br>his cabinet. Ariely didn’t really enjoy himself when he was trying to put all the parts<br>together. However, after he finished, he felt quite good about himself and his cabinet.<br>Later, he found that he loved his cabinet more than any of his other furniture.<br>Ariely wanted to know if anyone shared his feelings, so he did<br>a fun origami study. He invited two groups of people to join his<br>study. He called one group “builders” and the other group “buyers.”<br>Builders were told to make origami, like paper frogs or paper birds. When they<br>finished, they were asked how much they would spend on their works. Ariely then<br>showed the origami to buyers and asked them how much they would pay for them.<br>The two groups gave very different answers. Though buyers would pay only five<br>cents for builders’ origami, builders would spend 25 cents! Interestingly, builders<br>believed others would think their works were good enough to cost that much money!<br>Ariely’s study showed that he was not alone in his IKEA experience — we just love<br>things more, sometimes blindly, when we make them ourselves. Ariely called it “the<br>IKEA effect.”<br> effect 效應 furniture 家具</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">32.</span>What did Ariely try to find out in the origami study?<br>(A) If he could stop the IKEA effect.<br>(B) Why people love making origami.<br>(C) Why IKEA furniture is so famous.<br>(D) If anyone shared his IKEA experience.</div><div class="question-card"><span class="qnumline">33.</span>Which is true about the origami study?<br>(A) Buyers would spend less on builders’ origami than builders would.<br>(B) Builders and buyers needed to decide a price on the origami they made.<br>(C) Builders knew others would not pay as much for the origami as they would.<br>(D) Buyers would spend more on builders’ origami after knowing how they were made.</div><div class="question-card"><span class="qnumline">34.</span>Jerry just can’t get his daughter Mia to eat more vegetables at dinner. Every time he tries<br>to do so, there is always a lot of shouting and crying. If Jerry wants to have Mia eat more<br>vegetables by using the IKEA effect, what should he do?<br>(A) Tell Mia that he cooks the vegetables just for her.<br>(B) Ask Mia to help him cook vegetables for her meal.<br>(C) Give Mia her favorite candy after she eats vegetables.<br>(D) Ask Mia what vegetables she likes and cook them for her.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 32 題</div><div class="aval">D</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 33 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 34 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#41</span>
+<span class="subj" data-label="114年 英文 第26-28題"></span>
+<span class="qwc">216words・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">At 5 o’clock every morning, while most people are sleeping,<br>16-year-old Libby Larson is already up. She mops the floor, gets<br>the mail and the newspapers, and gets ready for visitors to Rolling<br>Acres. Libby’s grandparents started Rolling Acres in 1970, and<br>since then all of the Larson family have been working there.<br>Rolling Acres used to be just a sheep farm, but now, with its fruit<br>trees, vegetable gardens, and many other kinds of animals, it has<br>become a popular place for families to go on vacation. Visitors can<br>pick fruits, collect eggs, and feed the animals. It is one of Libby’s<br>jobs to show kids how to feed the baby sheep.<br>For her work, Libby is paid $10 an hour. This summer, she expects to make about $1,200<br>and plans to buy a cell phone. Her friends think it’s great to make that much money in a<br>summer. However, for Libby, working at a family business also means making sacrifices.<br>“I’d love to sleep until noon or go to summer camp like other kids. My friends stopped<br>inviting me on trips because I’m always busy in the summer.” However, Libby also said,<br>“But it’s better to see both sides. Working with your family is great. You feel closer to<br>each other.”</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">26.</span>What is Rolling Acres?<br>(A) A zoo.<br>(B) A campground.<br>(C) A vacation farm.<br>(D) A family restaurant.</div><div class="question-card"><span class="qnumline">27.</span>What do we learn from the first paragraph?  paragraph 段落<br>(A) What Libby does at Rolling Acres.<br>(B) What visitors think of Rolling Acres.<br>(C) Why Libby’s grandparents started Rolling Acres.<br>(D) What the Larson family’s plans are for Rolling Acres.</div><div class="question-card"><span class="qnumline">28.</span>What does making sacrifices mean?<br>(A) Learning to make money and use it wisely.<br>(B) Getting to know different sides of your family.<br>(C) Making excuses for failing to do something difficult.<br>(D) Giving up something important to do something else.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 26 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 27 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 28 題</div><div class="aval">D</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#42</span>
+<span class="subj" data-label="114年 英文 第29-31題"></span>
+<span class="qwc">179words・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">Around the year 400, people came to Easter Island.<br>So many trees here!<br>In their free time, they loved<br>They used trees to make fire and making statues with big rocks. With<br>build houses. Because of the trees, the trees they cut down, they could<br>people had a great life on the island. move the statues around easily.<br>Trees were needed and used in every part of their life.<br>Years passed, and there were fewer and fewer trees on Easter Island.<br>Without enough trees to keep<br>And I’m hungry.<br>water under the ground, the land<br>I’m thirsty.<br>became dry, and plants didn’t grow.<br>People began to fight for water and food. The statues were moved to fighting<br>grounds to show their power. The last trees were probably cut down at this time.<br>Let’s not make Earth, our only home,<br>Those who cut down<br>another Easter Island.<br>the last trees surely<br>understood how<br>important trees were<br>to them—but still,<br>they did it. When the<br>last trees fell to the<br>ground, people on the<br>island fell, too.</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">29.</span>What do the comics tell us?<br>(A) Enjoy life while we can.<br>(B) Follow the old ways of life.<br>(C) Save our planet before it’s too late.<br>(D) Treat others the way we want to be treated.</div><div class="question-card"><span class="qnumline">30.</span>What can we learn about the people in the comics?<br>(A) They made fire before starting a fight.<br>(B) They fought for land and plants all the time.<br>(C) They prayed to the statues beside a large fire.<br>(D) They used statues to show how strong they were.</div><div class="question-card"><span class="qnumline">31.</span>What does did it in Picture 7 mean?<br>(A) Fall to the ground.<br>(B) Cut down the last trees.<br>(C) Move the statues to fighting grounds.<br>(D) Understand how important trees were.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 29 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 30 題</div><div class="aval">D</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 31 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#43</span>
+<span class="subj" data-label="115年 英文 第35-39題"></span>
+<span class="qwc">345words・5題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">The Future of Icelandic Scandinavian News<br>by Anna Adams<br>Icelandic is a language that is spoken only in Iceland.<br>It has a long history. But many Icelanders are worried that<br>they’re losing Icelandic.<br>The reason for their worry is the prevalence of English<br>in Iceland. “I use English when I talk to my housework<br>robot, use my phone, and watch movies,” said Helgi<br>Atlason, an engineer. There is a reason for that. Most<br>of these products use English, and few companies care to change the language into<br>Icelandic because there are only a small number of Icelandic speakers (314,000 people).<br>Actually, you see English everywhere in Iceland.<br>Icelanders also speak and hear more English than Icelandic these days because many<br>foreigners who come to live and work in Iceland speak only English. “We can’t use<br>Icelandic abroad, and we’re not using it much in Iceland, either. How do you expect our<br>kids will want to learn it?” said Eirikur Wilson, a teacher.<br>Will Iceland one day give up Icelandic for English? It may happen soon.<br>Our Future with Icelandic Scandinavian News<br>by Gunnar Eggertsson<br>Many people think Icelandic is a language in its<br>sickbed and that it needs to be saved. I understand their<br>worries, but does the future of our language really look<br>that bad?<br>According to Dr. David Clingingsmith, a language<br>needs at least 35,000 speakers to be “safe” from becoming<br>a dying language. There are now 314,000 Icelandic<br>speakers. Also, every year Iceland spends 51.3 million Icelandic crowns (3.7 million<br>US dollars) teaching Icelandic to machines: phones, computers, and robots. Icelandic<br>is appearing more often in products. Most importantly, schools still teach Icelandic to<br>children. Clearly, we are not giving up our first language.<br>However, I’m not saying that Iceland has done enough for Icelandic. Our country<br>can do a better job at getting more people to speak this beautiful language. One way to<br>do so is to give more language courses to foreigners. With much more work, I’m sure<br>Icelandic can grow and even reach farther into the world.<br> Icelander 冰島人 product 商品</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">35.</span>What does the prevalence of English mean?<br>(A) That English is very common.<br>(B) That English is not welcomed.<br>(C) That English is easy and simple.<br>(D) That English is not a national language.</div><div class="question-card"><span class="qnumline">36.</span>In the first reading, which is one of the ways that Anna Adams uses to make readers believe<br>in her ideas?<br>(A) Sharing her own life stories.<br>(B) Borrowing from people’s experience.<br>(C) Using examples from another language.<br>(D) Showing information from news reports.</div><div class="question-card"><span class="qnumline">37.</span>Which words in the second reading are NOT used to describe Icelandic?<br>(A) A language in its sickbed.<br> describe 形容<br>(B) A dying language.<br>(C) Our first language.<br>(D) This beautiful language.</div><div class="question-card"><span class="qnumline">38.</span>Are Anna Adams and Gunnar Eggertsson worried about the future of Icelandic?<br>(A) No, they are not.<br>(B) Yes, they both are.<br>(C) Adams is, but Eggertsson is not.<br>(D) Adams is not, but Eggertsson is.</div><div class="question-card"><span class="qnumline">39.</span>Which idea do Anna Adams and Gunnar Eggertsson both talk about in the readings?<br>(A) Whether Icelanders speak better English than Icelandic.<br>(B) Whether the number of Icelandic speakers is big enough.<br>(C) Whether school subjects should be taught only in Icelandic.<br>(D) Whether Iceland should allow more foreigners to work in Iceland.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 35 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 36 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 37 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 38 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 39 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#44</span>
+<span class="subj" data-label="115年 英文 第40-43題"></span>
+<span class="qwc">290words・4題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">A long time ago, there was an old king who had no child of his own.<br>The king was worried that his land would fall into the wrong hands<br>after his death, so he decided to pick a child in his land to take the<br>high seat. One day, he called all the children to his castle and gave<br>each of them a seed. “Come back on New Year’s Day and show me<br>what you have grown,” he said to them, “and I will 40 .”<br>Every child brought their seeds home carefully. One of the children,<br>Wong, planted his seed in a pot. He gave it water every day and made<br>sure there was sun to help it grow. 41 .<br>Then, Sung, the child of the richest family in the land, told people that<br>a small plant was growing from his seed. He was 42 . Everyone<br>excitedly said that he would be king. Soon, one after another, more<br>and more children were also saying that they had something in their<br>pots. But Wong still didn’t find anything in his.<br>On the big day, when Wong brought his pot to the castle, he saw all<br>the other children carrying interesting plants. Some had flowers<br>in the shape of a bird, and some had grasses of different colors.<br>Everyone proudly showed their plants to the king, but the king<br>looked unhappy until he saw Wong’s pot. “I boiled the seeds before<br>I gave them out, so no plants could grow from them.” The king<br>looked seriously at the children. “There is only one child who is<br>43 enough to be king.”<br>Ten years later, the king died. On his deathbed, he was not worried<br>because he knew Wong would be a good king.</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">40.</span>(A) give you a piece of good land<br>(B) choose a person to be the next king<br>(C) put the beautiful ones in my castle<br>(D) decide who will work in my garden</div><div class="question-card"><span class="qnumline">41.</span>(A) But he lost his pot a few weeks later<br>(B) Months passed but nothing grew from it<br>(C) But soon the plant that grew from it died<br>(D) The seed grew into a big tree in a short time</div><div class="question-card"><span class="qnumline">42.</span>(A) the last one to give up<br>(B) the first one to share good news<br>(C) the first one to bring his pot to the king<br>(D) the only one to take good care of his plant</div><div class="question-card"><span class="qnumline">43.</span>(A) wise<br>(B) strong<br>(C) honest<br>(D) popular</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 40 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 41 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 42 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 43 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#45</span>
+<span class="subj" data-label="115年 英文 第32-34題"></span>
+<span class="qwc">199words・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">SEA GLASS: GLASS BOTTLES’ SECOND LIFE<br>Sea glass is made from the magic of the sea. It usually comes from glass bottles<br>that are thrown into the water. Each piece of sea glass looks different, and sea<br>glass is often seen on art pieces. The pictures below explain how sea glass is<br>born.<br>Glass bottles are thrown as garbage<br>1 into the sea.<br>When these bottles ride the waves of<br>the sea, they hit each other or other<br>2 garbage in the sea and break into<br>small pieces of glass.<br>Pieces of glass are pushed by sea water<br>and move along the sea floor. The<br>3 sharp pieces slowly become rounder<br>and rounder.<br>After tens or hundreds of years in the<br>sea, the pieces of glass grow an ice-like<br>4 white color on the outside and become<br>sea glass.<br>Sea glass is finally pushed up to the<br>5 beach.<br>Artists collect pieces of sea glass and<br>6 put them into their works.<br>However, people now seldom use glass to make bottles and bowls—paper bowls<br>and cups have become more popular these days. This means there are fewer<br>glass items in the sea, so less and less sea glass will be found in the future.</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">32.</span>Why does the title say “Glass Bottles’ Second Life” ?  title 標題<br>(A) People collect sea glass and use it to make new glass bottles.<br>(B) People collect sea glass at the beach and use it to make wishes.<br>(C) Glass bottles that are thrown into the sea become the homes of sea animals.<br>(D) Glass bottles that are thrown into the sea become sea glass which is used in art pieces.</div><div class="question-card"><span class="qnumline">33.</span>According to the reading, how is sea glass made?<br>(A) Sea glass becomes rounder after it is pushed up to the beach.<br>(B) Colder sea water helps pieces of glass become sea glass faster.<br>(C) Pieces of glass become white on the outside after many years in the sea.<br>(D) Glass bottles break into pieces when they are dug out from the sea floor.</div><div class="question-card"><span class="qnumline">34.</span>According to the reading, why will less sea glass be found in the future?<br>(A) People do not make as many glass items as before.<br>(B) People have learned not to throw garbage into the sea.<br>(C) Artists are using too much sea glass in their art pieces.<br>(D) Waves are not big enough to push sea glass up to the beach.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 32 題</div><div class="aval">D</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 33 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 34 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#46</span>
+<span class="subj" data-label="115年 英文 第29-31題"></span>
+<span class="qwc">191words・3題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">With heavy hearts, we are here to say goodbye to Rose Lacey, a wonderful<br>writer who will be sadly missed.<br>Rose and I first met in 2010. I was at a party to pick up my wife when I heard<br>Rose explaining to her and her friends why Get Across was a great movie. Her<br>ideas were so interesting that I invited her to write some articles about movies<br>for Action! US. Rose was very excited and agreed right away.<br>Over the next ten years, Rose wrote more than 150 articles. Rose could<br>always bring out something new from movies that we thought we knew so well.<br>People often told me that Rose never failed to surprise them. Her articles often<br>made them think whether they actually saw the same movie, but if they went<br>to see it again, they experienced the movie in a whole new way.<br>In her short life of 40 years, Rose has made her mark on the world of movies<br>with her articles for Action! US. We are lucky to have had her in our lives. She<br>was a very special person.<br>Alex Jackson<br>Head of Action! US<br> article 文章</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">29.</span>Why does Alex Jackson write about Rose Lacey?<br>(A) Because she died.<br>(B) Because she is very sick.<br>(C) Because she is moving away.<br>(D) Because she is leaving for another job.</div><div class="question-card"><span class="qnumline">30.</span>How did Rose Lacey and Alex Jackson get to know each other?<br>(A) They met at a party. (B) They were relatives.<br>(C) They worked in the same office. (D) They took a course on movies together.</div><div class="question-card"><span class="qnumline">31.</span>What is special about Rose Lacey’s articles?<br>(A) They are important to movie makers.<br>(B) They talk about movies from a fresh angle.<br>(C) They give interesting information about actors.<br>(D) They are good examples of how to write stories.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 29 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 30 題</div><div class="aval">A</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 31 題</div><div class="aval">B</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="question-stack">
+<section><div class="qhead">
+<span class="qno">#47</span>
+<span class="subj" data-label="115年 英文 第27-28題"></span>
+<span class="qwc">168words・2題</span></div>
+<div class="qbody"><div class="qpanel qpassage"><div class="passage">One summer evening when English cello player Beatrice<br>Harrison was practicing in her garden, she was joined by a<br>visitor she did not expect.<br>The visitor was a nightingale. The small brown bird sang<br>together with Harrison’s cello music, and the birdsong<br>sounded like the piece she was playing. For the next few<br>evenings, her visitor kept coming back, sometimes with<br>several of its friends. Harrison decided that more people<br>should hear the little singers.<br>Photo: Ms. Harrison with the cello<br>So, on May 19, 1924, Harrison worked with the BBC, the UK’s national TV and radio<br>station, and played in her garden. At first, the artist was playing alone. Fifteen minutes<br>before the end of her playing, the nightingales began to sing with the cello.<br>The nightingale show was popular with radio listeners. It was repeated the next week, and<br>for the next twelve years Harrison played on the radio with her garden friends. During this<br>time, she got 50,000 fan letters. People called her “the Nightingale Lady.”</div></div>
+<div class="qpanel qchoices"><div class="qs"><div class="question-card"><span class="qnumline">27.</span>Why was Beatrice Harrison called the Nightingale Lady?<br>(A) She wrote songs about nightingales.<br>(B) She sang as beautifully as a nightingale did.<br>(C) She taught nightingales to sing in a radio show.<br>(D) She was famous for playing music with nightingales.</div><div class="question-card"><span class="qnumline">28.</span>Which is NOT used in the reading to mean the nightingale(s) ?<br>(A) Her visitor.<br>(B) The little singers.<br>(C) The artist.<br>(D) Her garden friends.</div></div></div></div></section>
+<section class="dark answer-slide" data-background-color="#03492d"><div class="answer-wrap">
+<div class="answer-kicker">按 ↑ 回題目・按 → 到下一題組</div>
+<h2 class="answer-title">答案與解析提示</h2>
+<div class="answer-grid">
+<div class="answer-card"><div class="anum">第 27 題</div><div class="aval">D</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+<div class="answer-card"><div class="anum">第 28 題</div><div class="aval">C</div><p>閱讀題先抓主旨與轉折，再回文定位細節。</p></div>
+</div>
+</div></section>
+</section>
+<section class="dark center-slide" data-background-color="#03492d"><div class="hero">
+<h1 class="big2">你準備好了</h1>
+<p class="lead">會考的長文閱讀 ＝ <b>耐心讀完</b> ＋ <b>回到文章找線索</b>。</p>
+<p class="lead2">從現在開始練習，三年後就不怕了。</p>
+<div class="kicker2">文藻美語 · WENTZAO SCHOOL</div></div></section>
+</div>
+<div class="brandlogo" id="brand"><img src="wentzao_logo.png" alt="WENTZAO SCHOOL 文藻美語補習班"></div>
+<a class="deck-home" id="deckHome" href="#/0">選題</a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+<script>
+Reveal.initialize({hash:true,slideNumber:'c/t',width:1600,height:900,margin:0.035,center:true,
+ controls:true,progress:true,transition:'slide',transitionSpeed:'default',backgroundTransition:'fade'});
+// logo background adapts on dark slides
+function adapt(){var s=Reveal.getCurrentSlide();var dark=s&&s.classList.contains('dark');
+ var brand=document.getElementById('brand');if(brand){brand.classList.toggle('dark-logo',!!dark);brand.style.display=s&&(s.querySelector('.qhead')||s.classList.contains('library-slide'))?'none':'flex';}
+ var home=document.getElementById('deckHome');if(home){var idx=Reveal.getIndices();home.style.display=idx.h===0?'none':'inline-flex';}}
+Reveal.addEventListener('slidechanged',adapt); Reveal.addEventListener('ready',adapt);
+// hide-subject reveal
+document.addEventListener('click',function(e){var s=e.target.closest('.subj');
+ if(s){if(!s.classList.contains('shown'))s.style.background='#03492d';s.classList.toggle('shown');}});
+// calculator (36-point system)
+(function(){var levels=['A++','A+','A','B++','B+','B','C'];var subs=['國文','英文','數學','社會','自然'];
+ var wlev=['六級分','五級分','四級分','三級分','二級分','一級分','零級分'];
+ var box=document.getElementById('calc');if(!box)return;
+ var h='<div class="calc-grid">';subs.forEach(function(s,i){h+='<div class="calc-row"><div class="calc-label">'+s+'</div><select id="cs'+i+'">'+levels.map(function(l){return '<option>'+l+'</option>';}).join('')+'</select></div>';});
+ h+='<div class="calc-row"><div class="calc-label">國文寫作</div><select id="cw">'+wlev.map(function(l){return '<option>'+l+'</option>';}).join('')+'</select></div></div>';
+ box.innerHTML=h;
+ var P={'A++':7,'A+':6,'A':5,'B++':4,'B+':3,'B':2,'C':1};
+ var W={'六級分':1,'五級分':0.8,'四級分':0.6,'三級分':0.4,'二級分':0.2,'一級分':0.1,'零級分':0};
+ function calc(){var a=0,b=0,c=0,t=0,pp=0;for(var i=0;i<5;i++){var v=document.getElementById('cs'+i).value;if(v[0]==='A')a++;else if(v[0]==='B')b++;else c++;t+=P[v];if(v.indexOf('++')>=0)pp++;}
+  var w=document.getElementById('cw').value;t+=W[w];
+  var lab=(a?a+'A':'')+(b?b+'B':'')+(c?c+'C':'');
+  document.getElementById('calcout').innerHTML='五科：'+lab+(pp?'（'+pp+' 個 ++）':'')+'　｜　會考積分 '+Math.round(t*10)/10+' / 36 分';}
+ for(var i=0;i<5;i++)document.getElementById('cs'+i).addEventListener('change',calc);
+ document.getElementById('cw').addEventListener('change',calc);
+ Reveal.addEventListener('slidechanged',calc);calc();})();
+</script></body></html>
