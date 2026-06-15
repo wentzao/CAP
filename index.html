@@ -63,6 +63,30 @@ section.dark{}
 .note h3{font-size:1.08em;margin:0 0 .35em;color:var(--g);}
 .note p{font-size:.82em;line-height:1.58;margin:.2em 0;color:#33433b;}
 .note b{color:var(--g);}
+.score-map{display:grid;grid-template-columns:1fr auto 1fr;gap:20px;align-items:stretch;max-width:1180px;margin:.35em auto;text-align:left;}
+.score-box{background:#fff;border:3px solid #d7e2dc;border-radius:16px;padding:26px 28px;box-shadow:0 10px 28px rgba(3,73,45,.08);}
+.score-box.hl{border-color:var(--g);background:#f0f7f3;}
+.score-box h3{font-size:1.08em;margin:0 0 .35em;color:var(--g);font-weight:900;}
+.score-box p{font-size:.82em;line-height:1.55;margin:.2em 0;color:#33433b;}
+.score-box b{color:var(--g);}
+.score-arrow{display:flex;align-items:center;justify-content:center;color:var(--g);font-size:1.28em;font-weight:900;}
+.gate-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;max-width:1180px;margin:.4em auto;text-align:left;}
+.gate-card{background:#fff;border:3px solid #d7e2dc;border-radius:16px;padding:28px;min-height:250px;box-shadow:0 10px 28px rgba(3,73,45,.08);}
+.gate-card.hot{border-color:#e0bd65;background:#fff8e8;}
+.gate-card h3{font-size:1.18em;color:var(--g);margin:0 0 .45em;font-weight:900;}
+.gate-card p{font-size:.9em;line-height:1.55;color:#33433b;margin:.2em 0;}
+.gate-card b{color:var(--g);}
+.tie-ladder{display:grid;grid-template-columns:repeat(5,1fr);gap:13px;max-width:1340px;margin:.42em auto .2em;}
+.tie-step{background:#fff;border:2.5px solid #d4dfd9;border-radius:14px;padding:17px 12px 18px;min-height:180px;text-align:center;}
+.tie-step .rank{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:var(--g);color:#fff;font-size:.62em;font-weight:900;margin-bottom:9px;}
+.tie-step h3{font-size:.72em;line-height:1.2;color:var(--g);font-weight:900;margin:0 0 8px;}
+.tie-step p{font-size:.52em;line-height:1.42;color:#46574f;margin:0;}
+.same-score{display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:1180px;margin:.4em auto;text-align:left;}
+.student-card{background:#fff;border:3px solid #d7e2dc;border-radius:16px;padding:24px 28px;box-shadow:0 10px 28px rgba(3,73,45,.08);}
+.student-card.win{border-color:var(--g);background:#f0f7f3;}
+.student-card h3{font-size:1.05em;margin:0 0 .35em;color:var(--g);font-weight:900;}
+.student-card p{font-size:.84em;line-height:1.55;margin:.18em 0;color:#33433b;}
+.student-card .badge{display:inline-block;margin-top:8px;border-radius:999px;background:var(--g);color:#fff;padding:5px 14px;font-size:.62em;font-weight:900;}
 .compact-score .ttl{font-size:1.56em;margin-bottom:.24em;}
 .compact-score .foot{font-size:.78em;line-height:1.3;margin:.36em 0;}
 .compact-score .foot:last-child{font-size:.72em;margin-top:.3em;padding-right:160px;}
@@ -226,28 +250,35 @@ section.dark{}
 <div id="calc"></div>
 <div id="calcout"></div>
 <p class="foot mut">A++=7・A+=6・A=5・B++=4・B+=3・B=2・C=1；寫作六級分=1，零級分=0。不同就學區仍以當年簡章為準。</p></section>
-<section><h2 class="ttl">先分清楚：兩種「積分」</h2>
-<div class="note-grid">
-<div class="note fragment fade-up"><h3>會考積分</h3><p>只看<b>國、英、數、社、自</b>五科等級加標示，再加上<b>寫作測驗</b>級分換算。</p><p>它用來表示會考成績強弱。</p></div>
-<div class="note gold fragment fade-up"><h3>超額比序總積分</h3><p>把<b>志願序、多元學習表現、會考成績</b>等項目加總。</p><p>熱門學校報名人數超過名額時，才會拿來一關一關比。</p></div>
+<section><h2 class="ttl">先把兩件事分開</h2>
+<div class="score-map">
+<div class="score-box hl"><h3>1. 會考積分</h3><p>只把<b>五科會考成績</b>和<b>國文寫作</b>換成分數。</p><p>它回答的是：<b>我這次會考考得多強？</b></p><p>滿分是 <b>36 分</b>。</p></div>
+<div class="score-arrow">→</div>
+<div class="score-box"><h3>2. 超額比序</h3><p>不是單純算會考。</p><p>它是在熱門學校名額不夠時，用<b>總積分與比序順序</b>排出錄取先後。</p><p>它回答的是：<b>同一所學校，誰排前面？</b></p></div>
 </div>
-<p class="warn fragment fade-up">重點：會考考得好很重要，但錄取時看的常常是「總積分」和後面的比序順序。</p></section>
-<section class="dark" data-background-color="#03492d"><h2 class="ttl light">什麼時候要超額比序？</h2>
-<div class="explain">
-<div class="xcard fragment fade-up"><div class="xh">報名人數少於名額</div><div class="xb">學校收得下所有人，通常就會<b>全額錄取</b>。這時候不用一關一關比。</div></div>
-<div class="xcard hl fragment fade-up"><div class="xh">報名人數超過名額</div><div class="xb">熱門學校最常見。名額不夠時，就啟動<b>超額比序</b>，依規則決定錄取順序。</div></div>
+<p class="warn">一句話：<b>會考積分是成績；超額比序是錄取排序。</b>不要把兩個混在一起。</p></section>
+<section class="dark" data-background-color="#03492d"><h2 class="ttl light">什麼時候才會用到比序？</h2>
+<div class="gate-grid">
+<div class="gate-card"><h3>報名人數少於名額</h3><p>學校收得下所有報名學生，通常就會<b>全額錄取</b>。</p><p>這時候不用進入一關一關的比較。</p></div>
+<div class="gate-card hot"><h3>報名人數超過名額</h3><p>熱門高中常見：想進來的人比名額多。</p><p>這時候才會啟動<b>超額比序</b>，決定誰先錄取。</p></div>
 </div>
-<p class="foot light-foot">可以把它想成「比大小的闖關遊戲」：同分的人才會往下一關繼續比。</p></section>
-<section><h2 class="ttl">超額比序怎麼比？</h2>
-<p class="foot">各就學區順序略有不同。以基北區邏輯來看，通常會像這樣一路往下比：</p>
-<div class="steps">
-<div class="step fragment fade-up"><div class="num">1</div><div class="sh">總積分</div><div class="sb">志願序、多元學習、會考成績等項目加總</div></div>
-<div class="step fragment fade-up"><div class="num">2</div><div class="sh">多元學習</div><div class="sb">服務學習、均衡學習等平時累積表現</div></div>
-<div class="step fragment fade-up"><div class="num">3</div><div class="sh">會考積分</div><div class="sb">純看會考等級、標示與寫作換算分數</div></div>
-<div class="step fragment fade-up"><div class="num">4</div><div class="sh">志願序</div><div class="sb">你把這間學校排在第幾個志願</div></div>
-<div class="step fragment fade-up"><div class="num">5</div><div class="sh">單科 PK</div><div class="sb">國文、數學、英語、社會、自然、寫作逐科比較</div></div>
+<p class="foot light-foot">所以比序不是平常拿來算成績，而是「人太多、名額不夠」時的排序規則。</p></section>
+<section><h2 class="ttl">如果同分怎麼辦？</h2>
+<p class="foot">超額比序像闖關：前一關分不出來，才往下一關比。</p>
+<div class="tie-ladder">
+<div class="tie-step"><div class="rank">1</div><h3>先比總積分</h3><p>把志願序、多元學習、會考成績等項目加總。</p></div>
+<div class="tie-step"><div class="rank">2</div><h3>總積分相同</h3><p>再比多元學習表現，例如服務學習、均衡學習等。</p></div>
+<div class="tie-step"><div class="rank">3</div><h3>還是相同</h3><p>再比會考積分，也就是剛剛算的 36 分制。</p></div>
+<div class="tie-step"><div class="rank">4</div><h3>仍然相同</h3><p>再看志願序積分，這間學校排得越前面越有利。</p></div>
+<div class="tie-step"><div class="rank">5</div><h3>最後單科 PK</h3><p>依國文、數學、英語、社會、自然、寫作逐項比較。</p></div>
 </div>
-<p class="warn fragment fade-up">很多人總積分相同，最後可能差在 A++ / A+，或作文級分。</p></section>
+<p class="warn">重點：不是一開始就比單科。是前面都同分，才一路往下拆。</p></section>
+<section><h2 class="ttl">同樣 5A，差在哪裡？</h2>
+<div class="same-score">
+<div class="student-card"><h3>學生甲</h3><p>五科都是 A，但大多是 <b>A</b>。</p><p>作文 4 級分。</p><p>如果總積分、會考積分接近，後面比序可能不占優勢。</p></div>
+<div class="student-card win"><h3>學生乙</h3><p>五科都是 A，其中有多個 <b>A++ / A+</b>。</p><p>作文 5 到 6 級分。</p><p>進入單科比序時，比較容易排在前面。</p><span class="badge">同分時更有利</span></div>
+</div>
+<p class="foot">這就是為什麼熱門學校常常不只看「幾A」，還要看「幾個＋」、作文級分，以及志願排序。</p></section>
 <section class="compact-list"><h2 class="ttl">「志願序」是什麼？</h2>
 <p class="foot">就是你<b>填學校的順序</b>：最想去的填第 1 個、其次第 2 個……</p>
 <ul class="big-list">
