@@ -101,6 +101,21 @@ section.dark{}
 .compact-table .kt.wide{font-size:.74em;}
 .compact-table .kt th,.compact-table .kt td{padding:8px 14px;}
 .compact-table .foot{font-size:.72em;line-height:1.3;margin-top:.35em;}
+.rank-slide .ttl{font-size:1.48em;margin-bottom:.22em;}
+.rank-slide .sub-light{font-size:.76em;margin-bottom:.28em;}
+.rank-table{width:1280px;max-width:1280px;border-collapse:separate;border-spacing:0 7px;margin:.12em auto .2em;font-size:.62em;text-align:left;}
+.rank-table th{background:#0a6b43;color:#fff;font-weight:900;padding:8px 12px;}
+.rank-table th:first-child{border-radius:8px 0 0 8px;}
+.rank-table th:last-child{border-radius:0 8px 8px 0;}
+.rank-table td{background:rgba(255,255,255,.96);color:#24362e;padding:8px 12px;border-top:1px solid rgba(3,73,45,.08);border-bottom:1px solid rgba(3,73,45,.08);}
+.rank-table td:first-child{border-left:6px solid #7ec8a4;border-radius:8px 0 0 8px;font-weight:900;color:var(--g);text-align:center;width:72px;}
+.rank-table td:last-child{border-radius:0 8px 8px 0;}
+.rank-table .grade{display:inline-flex;align-items:center;justify-content:center;min-width:90px;border-radius:999px;padding:4px 12px;background:#eef6f1;color:var(--g);font-weight:900;}
+.rank-table .top .grade{background:#03492d;color:#fff;}
+.rank-table .mid .grade{background:#fff4dd;color:#5c4214;}
+.rank-table .school{font-weight:900;color:#19372b;}
+.rank-table .score{font-weight:900;color:#0a6b43;white-space:nowrap;}
+.rank-note{font-size:.56em;line-height:1.35;color:#b9d9cb;margin:.2em auto 0;max-width:1240px;}
 /* levels */
 .levels{display:flex;gap:36px;justify-content:center;margin-top:.6em;}
 .lv{text-align:center;}
@@ -286,14 +301,34 @@ section.dark{}
 <li>把最想念的學校<b>填在前面</b>，同時衡量自己的成績</li>
 <li>填太高會落空、太保守又可惜 → 要<b>聰明排序</b></li></ul>
 <p class="foot">志願序會進入超額比序；所以它不是隨便排，而是「夢想、實力、風險」一起排。</p></section>
-<section class="dark compact-table" data-background-color="#03492d"><h2 class="ttl light">要上第一志願，要多強？</h2>
-<p class="sub-light">中投區 114 年實際錄取（每年浮動，僅供參考）：</p>
-<table class="kt wide dark-t"><tr><th>學校</th><th>會考等級・作文</th><th>超額比序總積分（點）</th></tr>
-<tr><td><b>臺中一中</b></td><td>約 5A、含 4 個以上 ＋／＋＋<br>作文 5～6 級分</td><td>最低 <b>95 點</b>錄取<br>近 7 成新生 100 點以上</td></tr>
-<tr><td><b>臺中女中</b></td><td>約 5A、含多個 ＋／＋＋<br>作文 5 級分以上</td><td>最低 <b>92 點</b>錄取</td></tr>
-<tr><td>興大附中・文華</td><td>約 4A1B</td><td>略低於一中、女中</td></tr>
-<tr><td>大甲高中（海線）</td><td>約 2A3B～5B</td><td>就近入學可加分</td></tr></table>
-<p class="foot light-foot">「點」＝中投區超額比序總積分（含會考成績、多元學習、志願序…）。實際以當年簡章與分發為準。</p></section>
+<section class="dark rank-slide" data-background-color="#03492d"><h2 class="ttl light">114 中投區高中落點排名（前段）</h2>
+<p class="sub-light">把錄取積分直接換成幾A幾B，比「點數」更直觀：</p>
+<table class="rank-table"><tr><th>排名</th><th>會考表現</th><th>學校</th><th>積分 / 積點</th></tr>
+<tr class="top"><td>1</td><td><span class="grade">5A</span></td><td class="school">台中一中</td><td class="score">30分 / 95點</td></tr>
+<tr class="top"><td>2</td><td><span class="grade">5A</span></td><td class="school">台中女中</td><td class="score">30分 / 92點</td></tr>
+<tr class="top"><td>3</td><td><span class="grade">5A</span></td><td class="school">中科實中</td><td class="score">30分 / 91點</td></tr>
+<tr><td>4</td><td><span class="grade">4A1B</span></td><td class="school">興大附中</td><td class="score">28分 / 95點</td></tr>
+<tr><td>5</td><td><span class="grade">4A1B</span></td><td class="school">文華高中（男）</td><td class="score">28分 / 85點</td></tr>
+<tr><td>6</td><td><span class="grade">4A1B</span></td><td class="school">文華高中（女）</td><td class="score">28分 / 85點</td></tr>
+<tr><td>7</td><td><span class="grade">4A1B</span></td><td class="school">惠文高中</td><td class="score">28分 / 79點</td></tr>
+<tr class="mid"><td>8</td><td><span class="grade">3A2B</span></td><td class="school">台中二中</td><td class="score">26分 / 69點</td></tr>
+<tr class="mid"><td>9</td><td><span class="grade">3A2B</span></td><td class="school">忠明高中</td><td class="score">26分 / 67點</td></tr>
+<tr class="mid"><td>10</td><td><span class="grade">2A3B</span></td><td class="school">西苑高中</td><td class="score">24分 / 70點</td></tr></table>
+<p class="rank-note">A=6分、B=4分、C=2分；同樣幾A幾B仍要看積點、作文與超額比序。資料為114年中投區錄取分數整理，僅供落點參考。</p></section>
+<section class="dark rank-slide" data-background-color="#03492d"><h2 class="ttl light">114 中投區高中落點排名（區域高中）</h2>
+<p class="sub-light">往下看會更接近海線與區域型高中的真實落點：</p>
+<table class="rank-table"><tr><th>排名</th><th>會考表現</th><th>學校</th><th>積分 / 積點</th></tr>
+<tr class="mid"><td>11</td><td><span class="grade">2A3B</span></td><td class="school">東山高中</td><td class="score">24分 / 70點</td></tr>
+<tr class="mid"><td>12</td><td><span class="grade">2A3B</span></td><td class="school">大里高中</td><td class="score">24分 / 61點</td></tr>
+<tr><td>13</td><td><span class="grade">1A4B</span></td><td class="school">清水高中</td><td class="score">22分 / 58點</td></tr>
+<tr><td>14</td><td><span class="grade">1A4B</span></td><td class="school">豐原高中</td><td class="score">22分 / 53點</td></tr>
+<tr><td>15</td><td><span class="grade">1A4B</span></td><td class="school">長億高中</td><td class="score">22分 / 53點</td></tr>
+<tr><td>16</td><td><span class="grade">5B</span></td><td class="school">中港高中</td><td class="score">20分 / 52點</td></tr>
+<tr><td>17</td><td><span class="grade">5B</span></td><td class="school">龍津高中</td><td class="score">20分 / 39點</td></tr>
+<tr><td>18</td><td><span class="grade">5B</span></td><td class="school">大甲高中</td><td class="score">20分 / 37點</td></tr>
+<tr><td>19</td><td><span class="grade">4B1C</span></td><td class="school">后綜高中</td><td class="score">18分 / 31點</td></tr>
+<tr><td>20</td><td><span class="grade">4B1C</span></td><td class="school">新社高中</td><td class="score">18分 / 31點</td></tr></table>
+<p class="rank-note">大甲高中約落在5B區間；如果想往市區高中移動，就要把目標往1A4B、2A3B、3A2B推進。</p></section>
 <section class="compact-list"><h2 class="ttl">住大甲，怎麼選？</h2>
 <ul class="big-list">
 <li><b>大甲高中</b>是海線指標社區高中，<b>就近入學</b>還能加分</li>
