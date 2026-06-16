@@ -1112,19 +1112,20 @@ document.addEventListener('click',function(e){var s=e.target.closest('.subj');
   markChoice(btn.closest('.question-card'),btn.dataset.choice);
  });
 })();
-// calculator (36-point system)
+// calculator (CT district 30-point score and 111-point tie-breaker)
 (function(){var levels=['A++','A+','A','B++','B+','B','C'];var subs=['國文','英文','數學','社會','自然'];
  var wlev=['六級分','五級分','四級分','三級分','二級分','一級分','零級分'];
  var box=document.getElementById('calc');if(!box)return;
  var h='<div class="calc-grid">';subs.forEach(function(s,i){h+='<div class="calc-row"><div class="calc-label">'+s+'</div><select id="cs'+i+'">'+levels.map(function(l){return '<option>'+l+'</option>';}).join('')+'</select></div>';});
  h+='<div class="calc-row"><div class="calc-label">國文寫作</div><select id="cw">'+wlev.map(function(l){return '<option>'+l+'</option>';}).join('')+'</select></div></div>';
  box.innerHTML=h;
- var P={'A++':7,'A+':6,'A':5,'B++':4,'B+':3,'B':2,'C':1};
- var W={'六級分':1,'五級分':0.8,'四級分':0.6,'三級分':0.4,'二級分':0.2,'一級分':0.1,'零級分':0};
- function calc(){var a=0,b=0,c=0,t=0,pp=0;for(var i=0;i<5;i++){var v=document.getElementById('cs'+i).value;if(v[0]==='A')a++;else if(v[0]==='B')b++;else c++;t+=P[v];if(v.indexOf('++')>=0)pp++;}
-  var w=document.getElementById('cw').value;t+=W[w];
+ var score={'A++':6,'A+':6,'A':6,'B++':4,'B+':4,'B':4,'C':2};
+ var point={'A++':21,'A+':18,'A':15,'B++':12,'B+':9,'B':6,'C':3};
+ var W={'六級分':6,'五級分':5,'四級分':4,'三級分':3,'二級分':2,'一級分':1,'零級分':0};
+ function calc(){var a=0,b=0,c=0,total=0,points=0,pp=0;for(var i=0;i<5;i++){var v=document.getElementById('cs'+i).value;if(v[0]==='A')a++;else if(v[0]==='B')b++;else c++;total+=score[v];points+=point[v];if(v.indexOf('+')>=0)pp++;}
+  var w=document.getElementById('cw').value;points+=W[w];
   var lab=(a?a+'A':'')+(b?b+'B':'')+(c?c+'C':'');
-  document.getElementById('calcout').innerHTML='五科：'+lab+(pp?'（'+pp+' 個 ++）':'')+'　｜　會考積分 '+Math.round(t*10)/10+' / 36 分';}
+  document.getElementById('calcout').innerHTML='五科：'+lab+(pp?'（'+pp+' 個 +／++）':'')+'　｜　會考總積分 '+total+' / 30 分　｜　積點 '+points+' / 111 點';}
  for(var i=0;i<5;i++)document.getElementById('cs'+i).addEventListener('change',calc);
  document.getElementById('cw').addEventListener('change',calc);
  Reveal.addEventListener('slidechanged',calc);calc();})();
